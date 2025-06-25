@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYIOSAdsSDK'
-  s.version          = '5.7.19'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of MYIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shanghaimeiyue/MYIOSAdsSDK'
+  s.homepage         = 'https://github.com/shanghaimeiyue/EdimobIOSAdsSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shanghaimeiyue' => 'karl@edimob.com' }
-  s.source           = { :git => 'https://github.com/shanghaimeiyue/MYIOSAdsSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shanghaimeiyue/EdimobIOSAdsSDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
 
@@ -36,10 +36,19 @@ TODO: Add long description of the pod here.
       cohttpserver.dependency 'CocoaHTTPServer'
       cohttpserver.dependency 'CocoaLumberjack', '~>1.3.0'
   end
+  s.subspec 'SDWebImage' do |sdWebImage|
+      sdWebImage.dependency 'SDWebImage'
+  end
+  s.subspec 'Masonry' do |masonry|
+      masonry.dependency 'Masonry'
+  end
+  s.subspec 'KSCrash' do |kSCrash|
+      kSCrash.dependency 'KSCrash', '~> 1.17.7'
+  end
 #  s.dependency 'CocoaHTTPServer'
 #  s.dependency 'CocoaLumberjack', '~>1.3.0'
   #s.dependency 'WechatOpenSDK_UnPay'
-  s.dependency 'SDWebImage'
-  s.dependency 'Masonry'
-  s.dependency 'KSCrash', '~> 1.17.7'
+#  s.dependency 'SDWebImage'
+#  s.dependency 'Masonry'
+#  s.dependency 'KSCrash', '~> 1.17.7'
 end
