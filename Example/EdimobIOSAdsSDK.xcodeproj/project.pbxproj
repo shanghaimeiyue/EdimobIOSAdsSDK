@@ -29,11 +29,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		634C54C245F37D5022991E6C /* Pods_EdimobIOSAdsSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CB71D2CADB2B18181E18CB /* Pods_EdimobIOSAdsSDK_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8C9EE3796433B00C1B5ED351 /* Pods_MYIOSAdsSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */; };
 		929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B1BB82DE47B5A001244C6 /* LogManager.m */; };
-		E4EF48DE64E4C49FEB6CB466 /* Pods_MYIOSAdsSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33A3EA3ED80A6C4545BF70F /* Pods_MYIOSAdsSDK_Tests.framework */; };
+		9A475E40318DEC85E5A05C36 /* Pods_EdimobIOSAdsSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54BBACB6DF9386B531F2E08 /* Pods_EdimobIOSAdsSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,11 +75,15 @@
 		0479BCCF2CF81EBA0016A7CC /* MYVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYVideoViewController.m; sourceTree = "<group>"; };
 		0479BCD92CF81F110016A7CC /* MYAdInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAdInfoViewController.h; sourceTree = "<group>"; };
 		0479BCDA2CF81F110016A7CC /* MYAdInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAdInfoViewController.m; sourceTree = "<group>"; };
+		0B41A30B9ECB0DEB08FC783E /* Pods-EdimobIOSAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdimobIOSAdsSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1274147BC0C3D3032E1CF318 /* Pods-EdimobIOSAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdimobIOSAdsSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-EdimobIOSAdsSDK_Tests/Pods-EdimobIOSAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		17981957C958DBDDC1339C78 /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1EC4EDB356702E7AE06DC1FD /* EdimobIOSAdsSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EdimobIOSAdsSDK.podspec; path = ../EdimobIOSAdsSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28CB71D2CADB2B18181E18CB /* Pods_EdimobIOSAdsSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdimobIOSAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8709D047AAAAC9E8E2CF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		412D88A24E160BA5DDE44034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		528D30C255D497DACE1CA788 /* Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EdimobIOSAdsSDK_Tests/Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		55A4AAADD128206E79B9B035 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ubix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ubix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,9 +108,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		929B1BB72DE47B5A001244C6 /* LogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
 		929B1BB82DE47B5A001244C6 /* LogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
-		C33A3EA3ED80A6C4545BF70F /* Pods_MYIOSAdsSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYIOSAdsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54BBACB6DF9386B531F2E08 /* Pods_EdimobIOSAdsSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdimobIOSAdsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB2184857E38662C71AE27E /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYIOSAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5383C9C880C8ECFA33FED3 /* Pods-EdimobIOSAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdimobIOSAdsSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +121,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8C9EE3796433B00C1B5ED351 /* Pods_MYIOSAdsSDK_Example.framework in Frameworks */,
+				634C54C245F37D5022991E6C /* Pods_EdimobIOSAdsSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +132,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E4EF48DE64E4C49FEB6CB466 /* Pods_MYIOSAdsSDK_Tests.framework in Frameworks */,
+				9A475E40318DEC85E5A05C36 /* Pods_EdimobIOSAdsSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +189,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */,
-				C33A3EA3ED80A6C4545BF70F /* Pods_MYIOSAdsSDK_Tests.framework */,
+				28CB71D2CADB2B18181E18CB /* Pods_EdimobIOSAdsSDK_Example.framework */,
+				C54BBACB6DF9386B531F2E08 /* Pods_EdimobIOSAdsSDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -257,6 +261,10 @@
 				31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */,
 				CBB2184857E38662C71AE27E /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */,
 				55A4AAADD128206E79B9B035 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */,
+				DC5383C9C880C8ECFA33FED3 /* Pods-EdimobIOSAdsSDK_Example.debug.xcconfig */,
+				0B41A30B9ECB0DEB08FC783E /* Pods-EdimobIOSAdsSDK_Example.release.xcconfig */,
+				528D30C255D497DACE1CA788 /* Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig */,
+				1274147BC0C3D3032E1CF318 /* Pods-EdimobIOSAdsSDK_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -272,9 +280,9 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D3A3A799F4B3B34607AF7BD8 /* [CP] Embed Pods Frameworks */,
-				9104B02B81AEEBCE729A8083 /* [CP] Copy Pods Resources */,
 				040F1DF32D755ABB00876C54 /* Embed Frameworks */,
+				284DE9BC9BAB8EB5B674F541 /* [CP] Embed Pods Frameworks */,
+				8319EEC4F72FFADFC07BDBE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,7 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "EdimobIOSAdsSDK_Tests" */;
 			buildPhases = (
-				20553C6A7FA6DF9AAD1A88B2 /* [CP] Check Pods Manifest.lock */,
+				885FD755716EF6354EAA923E /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -369,83 +377,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20553C6A7FA6DF9AAD1A88B2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MYIOSAdsSDK_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8BEFBAEC549E55A5BD6C9EEC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MYIOSAdsSDK_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9104B02B81AEEBCE729A8083 /* [CP] Copy Pods Resources */ = {
+		284DE9BC9BAB8EB5B674F541 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-resources.sh",
-				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkSDK.bundle",
-				"${PODS_ROOT}/HRAdSDK/HRAdSDK/HRAdSDK.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
-				"${PODS_ROOT}/../../MYIOSAdsSDK/Resources/MYAdsBundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnyThinkSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HRAdSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MYAdsBundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3A3A799F4B3B34607AF7BD8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaHTTPServer/CocoaHTTPServer.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
@@ -472,7 +410,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8319EEC4F72FFADFC07BDBE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example-resources.sh",
+				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle",
+				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkSDK.bundle",
+				"${PODS_ROOT}/HRAdSDK/HRAdSDK/HRAdSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnyThinkSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HRAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		885FD755716EF6354EAA923E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdimobIOSAdsSDK_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEFBAEC549E55A5BD6C9EEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdimobIOSAdsSDK_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -616,7 +622,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17981957C958DBDDC1339C78 /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = DC5383C9C880C8ECFA33FED3 /* Pods-EdimobIOSAdsSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8UR33FSGUM;
@@ -638,7 +644,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 0B41A30B9ECB0DEB08FC783E /* Pods-EdimobIOSAdsSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8UR33FSGUM;
@@ -660,7 +666,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB2184857E38662C71AE27E /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 528D30C255D497DACE1CA788 /* Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8UR33FSGUM;
@@ -686,7 +692,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55A4AAADD128206E79B9B035 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 1274147BC0C3D3032E1CF318 /* Pods-EdimobIOSAdsSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8UR33FSGUM;

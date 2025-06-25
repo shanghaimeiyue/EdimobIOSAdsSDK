@@ -385,7 +385,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		lqTJ+1W682fkbvyIUKHIg7S+9D4=
+		M8A3bXRK2bgDjOWcJHlQJfWG4vY=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -405,18 +405,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Frameworks/EdiMobSDK.framework/EdiMobSDK</key>
-		<data>
-		Kw6NWmo3baOaH5C+0tea74RaSn8=
-		</data>
-		<key>Frameworks/EdiMobSDK.framework/Info.plist</key>
-		<data>
-		jZEXT7g/elJPqkcVBAsq3q3UOfY=
-		</data>
-		<key>Frameworks/EdiMobSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		uImxGUyt9n9kBfY9a6ESix9Cp/I=
-		</data>
 		<key>HRAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		9mBNp6TjxMX/flIBAd1lrEvGEKM=
@@ -1587,11 +1575,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lqTJ+1W682fkbvyIUKHIg7S+9D4=
+			M8A3bXRK2bgDjOWcJHlQJfWG4vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+zTWfkVphtpfqwyGApvVxj6oQA1YBbLnLPG09bnVnPM=
+			SFeYf5r1Cufvl7+eXJwle6Mmz9y2MY5/jMCvZo8+19A=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1619,39 +1607,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>Frameworks/EdiMobSDK.framework/EdiMobSDK</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Kw6NWmo3baOaH5C+0tea74RaSn8=
-			</data>
-			<key>hash2</key>
-			<data>
-			FQyWwsuAvc6NWogM56jOKYU/g69Qq7WEOkosCy27Vlc=
-			</data>
-		</dict>
-		<key>Frameworks/EdiMobSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jZEXT7g/elJPqkcVBAsq3q3UOfY=
-			</data>
-			<key>hash2</key>
-			<data>
-			gJ0Y+X2AbB9WNLbssmnbB2b/0OkL0xKl3C87TCCIxoI=
-			</data>
-		</dict>
-		<key>Frameworks/EdiMobSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uImxGUyt9n9kBfY9a6ESix9Cp/I=
-			</data>
-			<key>hash2</key>
-			<data>
-			kacW/rYIQxdPEtE1mIS0zsmZQYV7mSXLjZ/B24M185g=
-			</data>
 		</dict>
 		<key>HRAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>

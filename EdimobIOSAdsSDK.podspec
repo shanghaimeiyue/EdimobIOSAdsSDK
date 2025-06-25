@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EdimobIOSAdsSDK'
-  s.version          = '1.0.3'
+  s.version          = '5.7.25'
   s.summary          = 'A short description of EdimobIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -31,21 +31,27 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   s.resources = 'MYIOSAdsSDK/Resources/*.bundle'
   s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
-  
-  s.subspec 'CocoaHTTPServer' do |cohttpserver|
-      cohttpserver.dependency 'CocoaHTTPServer'
-      cohttpserver.dependency 'CocoaLumberjack', '~>1.3.0'
+ 
+  s.subspec 'Core' do |core|
+     core.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
   end
-  s.subspec 'SDWebImage' do |sdWebImage|
-      sdWebImage.dependency 'SDWebImage'
+  s.subspec 'CocoaHTTPServer' do |ss|
+      ss.dependency 'CocoaHTTPServer'
+      ss.dependency 'CocoaLumberjack', '~>1.3.0'
   end
-  s.subspec 'Masonry' do |masonry|
-      masonry.dependency 'Masonry'
+  s.subspec 'SDWebImage' do |ss|
+      ss.dependency 'SDWebImage'
   end
-  s.subspec 'KSCrash' do |kSCrash|
-      kSCrash.dependency 'KSCrash', '~> 1.17.7'
+  s.subspec 'Masonry' do |ss|
+      ss.dependency 'Masonry'
   end
-  s.default_subspecs = []
+  s.subspec 'KSCrash' do |ss|
+      ss.dependency 'KSCrash', '~> 1.17.7'
+  end
+  s.subspec 'WechatOpenSDK' do |ss|
+      ss.dependency 'WechatOpenSDK'
+  end
+  s.default_subspecs = 'Core'
 #  s.dependency 'CocoaHTTPServer'
 #  s.dependency 'CocoaLumberjack', '~>1.3.0'
   #s.dependency 'WechatOpenSDK_UnPay'

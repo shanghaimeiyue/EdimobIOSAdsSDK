@@ -10,6 +10,18 @@ PODS:
     - CocoaAsyncSocket
     - CocoaLumberjack
   - CocoaLumberjack (1.3.3)
+  - EdimobIOSAdsSDK/CocoaHTTPServer (5.7.25):
+    - CocoaHTTPServer
+    - CocoaLumberjack (~> 1.3.0)
+  - EdimobIOSAdsSDK/Core (5.7.25)
+  - EdimobIOSAdsSDK/KSCrash (5.7.25):
+    - KSCrash (~> 1.17.7)
+  - EdimobIOSAdsSDK/Masonry (5.7.25):
+    - Masonry
+  - EdimobIOSAdsSDK/SDWebImage (5.7.25):
+    - SDWebImage
+  - EdimobIOSAdsSDK/WechatOpenSDK (5.7.25):
+    - WechatOpenSDK
   - GDTMobSDK (4.15.40)
   - HRAdSDK/HR (1.7.19.0)
   - JADYun (2.6.6)
@@ -78,21 +90,10 @@ PODS:
   - KSCrash/Reporting/Tools (1.17.7):
     - KSCrash/Recording
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.7.19):
-    - KSCrash (~> 1.17.7)
-    - Masonry
-    - MYIOSAdsSDK/CocoaHTTPServer (= 5.7.19)
-    - SDWebImage
-  - MYIOSAdsSDK/CocoaHTTPServer (5.7.19):
-    - CocoaHTTPServer
-    - CocoaLumberjack (~> 1.3.0)
-    - KSCrash (~> 1.17.7)
-    - Masonry
-    - SDWebImage
-  - QMAdSDK (1.3.4)
-  - SDWebImage (5.21.0):
-    - SDWebImage/Core (= 5.21.0)
-  - SDWebImage/Core (5.21.0)
+  - QMAdSDK (1.3.5)
+  - SDWebImage (5.21.1):
+    - SDWebImage/Core (= 5.21.1)
+  - SDWebImage/Core (5.21.1)
   - UBiXDaq (2.4.0)
   - UBiXMediationSDK (2.8.1):
     - UBiXDaq
@@ -107,16 +108,19 @@ DEPENDENCIES:
   - Ads-CN-Beta/BUAdSDK (~> 6.8.0.6)
   - Ads-CN-Beta/CSJMediation (~> 6.8.0.6)
   - AnyThinkiOS (= 6.4.76)
+  - EdimobIOSAdsSDK/CocoaHTTPServer (from `../`)
+  - EdimobIOSAdsSDK/Core (from `../`)
+  - EdimobIOSAdsSDK/KSCrash (from `../`)
+  - EdimobIOSAdsSDK/Masonry (from `../`)
+  - EdimobIOSAdsSDK/SDWebImage (from `../`)
+  - EdimobIOSAdsSDK/WechatOpenSDK (from `../`)
   - GDTMobSDK (~> 4.15.40)
   - HRAdSDK/HR (= 1.7.19.0)
   - JADYun (= 2.6.6)
   - KSAdSDK (~> 3.3.76)
-  - KSCrash (~> 1.17.7)
-  - MYIOSAdsSDK (from `../`)
   - QMAdSDK (~> 1.3.4)
   - UBiXMediationSDK (= 2.8.1)
   - UBiXMUBiXAdapter
-  - WechatOpenSDK
 
 SPEC REPOS:
   trunk:
@@ -140,7 +144,7 @@ SPEC REPOS:
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
-  MYIOSAdsSDK:
+  EdimobIOSAdsSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
@@ -149,21 +153,21 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CocoaHTTPServer: 71538be9be526cf950cb4d9c9465153ea45cac99
   CocoaLumberjack: 9c1e36cb5bf886ad691191f59871a11179c7c2aa
+  EdimobIOSAdsSDK: 18f0dab421e097738173cc301d197a10bab0adb5
   GDTMobSDK: ec2e9b392268a556e4d5e6ade6d00885d76a2cc5
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
   KSAdSDK: 209b3b1b6b392f06cb8b67966139cf6859174455
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: 93d40ce10785f93d2e0181f2702840b9280e2a48
-  QMAdSDK: 4af9116596cc11095bb80b194aa155e50ee6b325
-  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  QMAdSDK: a0867610b4675d1e565c3b4b481ead49f8484db9
+  SDWebImage: f29024626962457f3470184232766516dee8dfea
   UBiXDaq: 8cadda28547c9ea8124cdbcfc9da63493b168858
   UBiXMediationSDK: 23614be177fd9b8c0b58cd0a5821924d4cfeed99
   UBiXMerakSDK: 4418fe5693b9aa3007b0ef496bb1760c3ba2ad09
   UBiXMUBiXAdapter: dc0bd3536fd8002dae28398f3b388033e1de2084
   WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: 3b413024691dbb1627747acbb9a13479e195b355
+PODFILE CHECKSUM: 776ede67cf57351701f05cca3517cbf3f076231f
 
 COCOAPODS: 1.16.2
