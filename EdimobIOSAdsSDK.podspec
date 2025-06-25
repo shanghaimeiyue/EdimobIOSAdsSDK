@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EdimobIOSAdsSDK'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of EdimobIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -45,6 +45,7 @@ TODO: Add long description of the pod here.
   s.subspec 'KSCrash' do |kSCrash|
       kSCrash.dependency 'KSCrash', '~> 1.17.7'
   end
+  s.default_subspecs = []
 #  s.dependency 'CocoaHTTPServer'
 #  s.dependency 'CocoaLumberjack', '~>1.3.0'
   #s.dependency 'WechatOpenSDK_UnPay'
