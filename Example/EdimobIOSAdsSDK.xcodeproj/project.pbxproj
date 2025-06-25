@@ -76,7 +76,7 @@
 		0479BCD92CF81F110016A7CC /* MYAdInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAdInfoViewController.h; sourceTree = "<group>"; };
 		0479BCDA2CF81F110016A7CC /* MYAdInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAdInfoViewController.m; sourceTree = "<group>"; };
 		17981957C958DBDDC1339C78 /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1EC4EDB356702E7AE06DC1FD /* MYIOSAdsSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MYIOSAdsSDK.podspec; path = ../MYIOSAdsSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1EC4EDB356702E7AE06DC1FD /* EdimobIOSAdsSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EdimobIOSAdsSDK.podspec; path = ../EdimobIOSAdsSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DC8709D047AAAAC9E8E2CF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		412D88A24E160BA5DDE44034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		6003F5A5195388D20070C39A /* MYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* MYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* MYIOSAdsSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYIOSAdsSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* EdimobIOSAdsSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdimobIOSAdsSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -173,7 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* ubix.app */,
-				6003F5AE195388D20070C39A /* MYIOSAdsSDK_Tests.xctest */,
+				6003F5AE195388D20070C39A /* EdimobIOSAdsSDK_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,7 +243,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1EC4EDB356702E7AE06DC1FD /* MYIOSAdsSDK.podspec */,
+				1EC4EDB356702E7AE06DC1FD /* EdimobIOSAdsSDK.podspec */,
 				2DC8709D047AAAAC9E8E2CF9 /* README.md */,
 				412D88A24E160BA5DDE44034 /* LICENSE */,
 			);
@@ -264,9 +264,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* MYIOSAdsSDK_Example */ = {
+		6003F589195388D20070C39A /* EdimobIOSAdsSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "EdimobIOSAdsSDK_Example" */;
 			buildPhases = (
 				8BEFBAEC549E55A5BD6C9EEC /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -280,14 +280,14 @@
 			);
 			dependencies = (
 			);
-			name = MYIOSAdsSDK_Example;
+			name = EdimobIOSAdsSDK_Example;
 			productName = MYIOSAdsSDK;
 			productReference = 6003F58A195388D20070C39A /* ubix.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* MYIOSAdsSDK_Tests */ = {
+		6003F5AD195388D20070C39A /* EdimobIOSAdsSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "EdimobIOSAdsSDK_Tests" */;
 			buildPhases = (
 				20553C6A7FA6DF9AAD1A88B2 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
@@ -299,9 +299,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = MYIOSAdsSDK_Tests;
+			name = EdimobIOSAdsSDK_Tests;
 			productName = MYIOSAdsSDKTests;
-			productReference = 6003F5AE195388D20070C39A /* MYIOSAdsSDK_Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* EdimobIOSAdsSDK_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -323,7 +323,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "MYIOSAdsSDK" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "EdimobIOSAdsSDK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -337,8 +337,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* MYIOSAdsSDK_Example */,
-				6003F5AD195388D20070C39A /* MYIOSAdsSDK_Tests */,
+				6003F589195388D20070C39A /* EdimobIOSAdsSDK_Example */,
+				6003F5AD195388D20070C39A /* EdimobIOSAdsSDK_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -508,7 +508,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* MYIOSAdsSDK_Example */;
+			target = 6003F589195388D20070C39A /* EdimobIOSAdsSDK_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -679,7 +679,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYIOSAdsSDK_Example.app/MYIOSAdsSDK_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdimobIOSAdsSDK_Example.app/EdimobIOSAdsSDK_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -701,7 +701,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYIOSAdsSDK_Example.app/MYIOSAdsSDK_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdimobIOSAdsSDK_Example.app/EdimobIOSAdsSDK_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -709,7 +709,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "MYIOSAdsSDK" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "EdimobIOSAdsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -718,7 +718,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "EdimobIOSAdsSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -727,7 +727,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "EdimobIOSAdsSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
