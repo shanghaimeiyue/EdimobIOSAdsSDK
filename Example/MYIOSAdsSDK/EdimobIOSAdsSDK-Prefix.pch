@@ -16,7 +16,7 @@
 #endif
 
 #define MYMobAdsAppID @"1850"
-#define SplashID @"11692"
+#define SplashID @"6865"
 #define BannerID @"9278"
 #define InterID @"6868"
 #define NativeID @"11694"

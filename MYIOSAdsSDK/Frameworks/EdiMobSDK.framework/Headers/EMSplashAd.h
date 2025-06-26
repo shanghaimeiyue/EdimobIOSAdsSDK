@@ -7,6 +7,8 @@
 #import <UIKit/UIKit.h>
 #import <EdiMobSDK/EMAdsProtocol.h>
 
+
+
 @protocol EMSplashAdDelegate <NSObject>
 
 @optional
