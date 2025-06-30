@@ -384,9 +384,9 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaHTTPServer/CocoaHTTPServer.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${PODS_ROOT}/../../MYIOSAdsSDK/Frameworks/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${PODS_ROOT}/../../MYIOSAdsSDK/Frameworks/CocoaHTTPServer/CocoaHTTPServer.framework",
+				"${PODS_ROOT}/../../MYIOSAdsSDK/Frameworks/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
