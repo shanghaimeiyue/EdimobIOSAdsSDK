@@ -5,15 +5,15 @@ PODS:
   - AnyThinkiOS (6.4.76):
     - AnyThinkiOS/AnyThinkSDK (= 6.4.76)
   - AnyThinkiOS/AnyThinkSDK (6.4.76)
-  - EdimobIOSAdsSDK/CocoaHTTPServer (5.7.25)
-  - EdimobIOSAdsSDK/Core (5.7.25)
-  - EdimobIOSAdsSDK/KSCrash (5.7.25):
+  - EdimobIOSAdsSDK/CocoaHTTPServer (5.7.27)
+  - EdimobIOSAdsSDK/Core (5.7.27)
+  - EdimobIOSAdsSDK/KSCrash (5.7.27):
     - KSCrash (~> 1.17.7)
-  - EdimobIOSAdsSDK/Masonry (5.7.25):
+  - EdimobIOSAdsSDK/Masonry (5.7.27):
     - Masonry
-  - EdimobIOSAdsSDK/SDWebImage (5.7.25):
+  - EdimobIOSAdsSDK/SDWebImage (5.7.27):
     - SDWebImage
-  - EdimobIOSAdsSDK/WechatOpenSDK (5.7.25):
+  - EdimobIOSAdsSDK/WechatOpenSDK (5.7.27):
     - WechatOpenSDK
   - GDTMobSDK (4.15.40)
   - HRAdSDK/HR (1.7.19.0)
@@ -140,7 +140,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Ads-CN-Beta: d60eb96212ab21533ce80247a28533c61aa9da45
   AnyThinkiOS: 628392cb255ed455b4cb86a446c596242b625c45
-  EdimobIOSAdsSDK: 8a4b8415bd02f2d5b82efe24d8427d9d8c8bd065
+  EdimobIOSAdsSDK: 27289453869a853bed751e1718182989cf73168a
   GDTMobSDK: ec2e9b392268a556e4d5e6ade6d00885d76a2cc5
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
