@@ -5,19 +5,19 @@ PODS:
   - AnyThinkiOS (6.4.76):
     - AnyThinkiOS/AnyThinkSDK (= 6.4.76)
   - AnyThinkiOS/AnyThinkSDK (6.4.76)
-  - EdimobIOSAdsSDK/CocoaHTTPServer (5.7.27)
-  - EdimobIOSAdsSDK/Core (5.7.27)
-  - EdimobIOSAdsSDK/KSCrash (5.7.27):
+  - EdimobIOSAdsSDK/CocoaHTTPServer (5.8.13)
+  - EdimobIOSAdsSDK/Core (5.8.13)
+  - EdimobIOSAdsSDK/KSCrash (5.8.13):
     - KSCrash (~> 1.17.7)
-  - EdimobIOSAdsSDK/Masonry (5.7.27):
+  - EdimobIOSAdsSDK/Masonry (5.8.13):
     - Masonry
-  - EdimobIOSAdsSDK/SDWebImage (5.7.27):
+  - EdimobIOSAdsSDK/SDWebImage (5.8.13):
     - SDWebImage
-  - EdimobIOSAdsSDK/WechatOpenSDK (5.7.27):
+  - EdimobIOSAdsSDK/WechatOpenSDK (5.8.13):
     - WechatOpenSDK
-  - GDTMobSDK (4.15.40)
+  - GDTMobSDK (4.15.50)
   - HRAdSDK/HR (1.7.19.0)
-  - JADYun (2.6.6)
+  - JADYun (2.6.8)
   - KSAdSDK (3.3.76.5)
   - KSCrash (1.17.7):
     - KSCrash/Installations (= 1.17.7)
@@ -88,7 +88,7 @@ PODS:
     - SDWebImage/Core (= 5.21.1)
   - SDWebImage/Core (5.21.1)
   - UBiXDaq (2.4.0)
-  - UBiXMediationSDK (2.8.1):
+  - UBiXMediationSDK (2.9.0):
     - UBiXDaq
   - UBiXMerakSDK (2.6.1.01):
     - UBiXDaq (~> 2.4.0)
@@ -107,12 +107,12 @@ DEPENDENCIES:
   - EdimobIOSAdsSDK/Masonry (from `../`)
   - EdimobIOSAdsSDK/SDWebImage (from `../`)
   - EdimobIOSAdsSDK/WechatOpenSDK (from `../`)
-  - GDTMobSDK (~> 4.15.40)
+  - GDTMobSDK (~> 4.15.41)
   - HRAdSDK/HR (= 1.7.19.0)
-  - JADYun (= 2.6.6)
+  - JADYun (= 2.6.8)
   - KSAdSDK (~> 3.3.76)
   - QMAdSDK (~> 1.3.4)
-  - UBiXMediationSDK (= 2.8.1)
+  - UBiXMediationSDK (= 2.9.0)
   - UBiXMUBiXAdapter
 
 SPEC REPOS:
@@ -140,21 +140,21 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Ads-CN-Beta: d60eb96212ab21533ce80247a28533c61aa9da45
   AnyThinkiOS: 628392cb255ed455b4cb86a446c596242b625c45
-  EdimobIOSAdsSDK: 27289453869a853bed751e1718182989cf73168a
-  GDTMobSDK: ec2e9b392268a556e4d5e6ade6d00885d76a2cc5
+  EdimobIOSAdsSDK: 1a61c9cbfe5a41d15f6d0e20997ef1a59d1aa80f
+  GDTMobSDK: 9c8f21633121d4140e16dff2825dc3452cf993a2
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
-  JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
+  JADYun: fe7f107f9baa699ef768fd3bb74d2b0aee70bb48
   KSAdSDK: 209b3b1b6b392f06cb8b67966139cf6859174455
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   QMAdSDK: a0867610b4675d1e565c3b4b481ead49f8484db9
   SDWebImage: f29024626962457f3470184232766516dee8dfea
   UBiXDaq: 8cadda28547c9ea8124cdbcfc9da63493b168858
-  UBiXMediationSDK: 23614be177fd9b8c0b58cd0a5821924d4cfeed99
+  UBiXMediationSDK: ca41a290f26f209240e8c8614ebbdb99d23147d8
   UBiXMerakSDK: 4418fe5693b9aa3007b0ef496bb1760c3ba2ad09
   UBiXMUBiXAdapter: dc0bd3536fd8002dae28398f3b388033e1de2084
   WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: 776ede67cf57351701f05cca3517cbf3f076231f
+PODFILE CHECKSUM: a6e34d5cde6e53703ce3bddff32d9298712693c6
 
 COCOAPODS: 1.16.2

@@ -8,14 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "MyAdProtocol.h"
+@class FalconPlatModel;
 
 @interface MYNativeExpressAdView : UIView<MyAdProtocol>
+
+
+@property (nonatomic, strong) UIView *contentView;
 /**
  *[必选]
  *原生模板广告渲染,在广告展示时调用,否则会影响收益;
  */
 - (void)MY_render;
 
+- (void)MY_render:(FalconPlatModel *)platModel;
 /**
  返回广告的eCPM，单位：分
  
@@ -30,6 +35,7 @@
 @property (nonatomic, assign) BOOL OP;
 @property (nonatomic, assign) int index;
 @property (nonatomic, assign) NSInteger count;
+@property (nonatomic, strong) FalconPlatModel *plamtModel;
 - (instancetype)initWithFrame:(CGRect)frame form:(id)form style:(id)style ad:(id)ad data:(id)data response:(id)response result:(id)result;
 
 @end

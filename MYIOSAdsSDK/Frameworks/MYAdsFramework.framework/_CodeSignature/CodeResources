@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		yFuJLoiJthyPBMa55CLvf/uH0+A=
+		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
 		fWiM0q7tOHdPeB/1MPQSiZdZLkA=
@@ -519,7 +523,7 @@
 		</data>
 		<key>Headers/MYAdsFramework.h</key>
 		<data>
-		cSPIqVPQbMLaWrOAer9bX/TRr7Q=
+		qDGm1J8lmLgXF8nlUcJrpX0JlnQ=
 		</data>
 		<key>Headers/MYBannerView.h</key>
 		<data>
@@ -535,7 +539,7 @@
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
-		txVIzrPoVgPhMLKHCp3HYqzDmkY=
+		lbB2L7/NgygU47ckx5xtgKuDaJ0=
 		</data>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<data>
@@ -555,7 +559,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tpCc2Ebn911UZiv+/PLMu3QdAls=
+		jQ34Mmq/E1taaQDdQpYyydiUHxA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1920,11 +1924,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cSPIqVPQbMLaWrOAer9bX/TRr7Q=
+			qDGm1J8lmLgXF8nlUcJrpX0JlnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			7aGI1yOr0HNBAybriYsYHx3mSeotnepGc+g3ED5a1ZA=
+			xbI5b3pH3pMhRaRsdbBTiAJvK1pcMUMDLLCRmMOHotU=
 			</data>
 		</dict>
 		<key>Headers/MYBannerView.h</key>
@@ -1964,11 +1968,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			txVIzrPoVgPhMLKHCp3HYqzDmkY=
+			lbB2L7/NgygU47ckx5xtgKuDaJ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hx+hioQpXiFWUVEhxk9Horwx19PLfGSVXxmwX6JJNwM=
+			8QNl+C93gQ8pexfsxGwE+LKGS57Xc9W+zOePAfr28VM=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoAd.h</key>

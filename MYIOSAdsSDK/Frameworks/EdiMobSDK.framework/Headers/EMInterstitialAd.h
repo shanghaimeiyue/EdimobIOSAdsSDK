@@ -10,6 +10,40 @@
 #import <UIKit/UIKit.h>
 #import <EdiMobSDK/EMAdsProtocol.h>
 
+@interface EMInterstitialObject : NSObject
+/// 广告标题
+@property (nonatomic, copy) NSString *title;
+/// 详细信息
+@property (nonatomic, copy) NSString *desc;
+/// 图片 url
+@property (nonatomic, copy) NSString *iurl;
+/// icon 图标url
+@property (nonatomic, copy) NSString *icurl;
+
+/// 当前素材列表对应的id,用于追踪、排查问题
+@property (nonatomic, copy) NSString *Id;
+/// 对应 BidRequest.imp.id
+@property (nonatomic, copy) NSString *impid;
+/// 广告ID
+@property (nonatomic, copy) NSString *adid;
+/// 价格（单位分）
+@property (nonatomic, assign) NSInteger price;
+
+@property (nonatomic, copy) NSArray *opurl;
+/// 广告点击跳转的地址
+@property (nonatomic, copy) NSString *laurl;
+/// 广告点击交互类型 0:普通h5，1：下载，2：微信⼩程序唤起，3：deeplink直呼
+@property (nonatomic, assign) NSInteger interact;
+/// 小程序原始ID
+@property (nonatomic, copy) NSString *miniId;
+/// 小程序跳转路径
+@property (nonatomic, copy) NSString *path;
+/// 小程序操作上报，需宏替换{CALL_UP_RESULT}
+@property (nonatomic, copy) NSArray *trackings;
+
+@property(nonatomic,strong)NSString *fallback;
+@end
+
 @protocol EMInterstitialAdDelegate <NSObject>
 
 @optional
@@ -19,7 +53,7 @@
  *  详解:当接收服务器返回的广告数据成功后调用该函数
  *  在此方法中调用FAL_presentFromRootViewController：需放在主线程中
  */
-- (void)EM_interstitialSuccessToLoadAd;
+- (void)EM_interstitialSuccessToLoadAd:(EMInterstitialObject *)adObject;
 
 /**
  *  广告预加载失败回调
