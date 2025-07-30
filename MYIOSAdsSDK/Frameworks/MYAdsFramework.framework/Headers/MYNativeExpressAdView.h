@@ -19,6 +19,7 @@
  *原生模板广告渲染,在广告展示时调用,否则会影响收益;
  */
 - (void)MY_render;
+- (NSInteger)ecpmNoBr;
 
 - (void)MY_render:(FalconPlatModel *)platModel;
 /**
