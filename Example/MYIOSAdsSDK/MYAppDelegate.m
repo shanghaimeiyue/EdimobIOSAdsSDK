@@ -141,14 +141,17 @@
 }
 - (void)MY_splashAdClosed{
     NSLog(@"开屏广告关闭");
+    [[LogManager shared] logToTextView:@"MY_splashAdClosed"];
     [self rmoveAdWindow];
     self.splash = nil;
     self.splash.delegate = nil;
 }
 - (void)MY_splashAdClicked{
+    [[LogManager shared] logToTextView:@"MY_splashAdClicked"];
     NSLog(@"开屏广告点击");
 }
 - (void)MY_splashAdExposured{
+    [[LogManager shared] logToTextView:@"MY_splashAdExposured"];
     NSLog(@"开屏广告曝光");
 }
 - (void)MY_splashAdLifeTime:(NSUInteger)time{

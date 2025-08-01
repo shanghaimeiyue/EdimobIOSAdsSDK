@@ -70,7 +70,7 @@
 /**
  *  传入首页视图控制器，用于开屏V+广告的展示。必传*
  */
-@property (nonatomic, weak) UIViewController *zoomController;
+@property (nonatomic, strong) UIViewController *zoomController;
 
 /**
  *  自定义底部视图，当需要设置bottomView时必传。

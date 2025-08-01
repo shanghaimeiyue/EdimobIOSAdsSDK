@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		yFuJLoiJthyPBMa55CLvf/uH0+A=
+		Eet28EzP42jIqXjXFKDeUaeEPEo=
 		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
@@ -539,7 +539,7 @@
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
-		2Py7cz1atC4M1bmGoty++HiV7Ac=
+		NT4MkY5SfLV51L5axvv2NTHmcx0=
 		</data>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<data>
@@ -551,7 +551,7 @@
 		</data>
 		<key>Headers/MYSplashAd.h</key>
 		<data>
-		EQqlCF+4ZVZpdmWCZ6zkVd9Co3g=
+		Fd4wbvYKCVuyM+Spa7gpS1IN6u0=
 		</data>
 		<key>Headers/MyAdProtocol.h</key>
 		<data>
@@ -1968,11 +1968,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2Py7cz1atC4M1bmGoty++HiV7Ac=
+			NT4MkY5SfLV51L5axvv2NTHmcx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			IUnAHUkphAtFs1/msxHZB9f+S5+A+kHzywV02aU6vHI=
+			+G58QW23UeMoDDKalGbo62FWt0sMICSKxVlmP7OHSRU=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoAd.h</key>
@@ -2001,11 +2001,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EQqlCF+4ZVZpdmWCZ6zkVd9Co3g=
+			Fd4wbvYKCVuyM+Spa7gpS1IN6u0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CqDXTZZJ3p+uAhRwVeUVOdnP708qVS+KJkl5IaxlwMo=
+			maBABfHe4+D3AAQImgzQtflfgRaE5g/zIGyknnCi504=
 			</data>
 		</dict>
 		<key>Headers/MyAdProtocol.h</key>

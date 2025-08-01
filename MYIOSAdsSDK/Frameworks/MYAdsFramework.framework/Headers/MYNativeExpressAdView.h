@@ -19,7 +19,6 @@
  *原生模板广告渲染,在广告展示时调用,否则会影响收益;
  */
 - (void)MY_render;
-- (NSInteger)ecpmNoBr;
 
 - (void)MY_render:(FalconPlatModel *)platModel;
 /**
@@ -28,6 +27,7 @@
  @return 成功返回一个大于等于0的值，-1表示无权限或后台出现异常
  */
 - (NSInteger)eCPM;
+- (NSInteger)ecpmNoBr;
 
 /**以下方法和属性开发者无需调用和关心*/
 @property (nonatomic, weak) UIViewController *controller;
