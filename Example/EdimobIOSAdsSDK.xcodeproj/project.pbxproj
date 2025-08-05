@@ -422,6 +422,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example-resources.sh",
 				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle",
 				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkSDK.bundle",
+				"${PODS_ROOT}/../../MYIOSAdsSDK/Resources/MYAdsBundle.bundle",
 				"${PODS_ROOT}/HRAdSDK/HRAdSDK/HRAdSDK.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
 			);
@@ -429,6 +430,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnyThinkSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MYAdsBundle.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HRAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
 			);
