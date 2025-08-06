@@ -13,6 +13,7 @@
 #import "MYViewController.h"
 #import "LogManager.h"
 #import<AnyThinkSplash/AnyThinkSplash.h>
+#import <Bugly/Bugly.h>
 
 #define kScreenWidth [[UIApplication sharedApplication]keyWindow].bounds.size.width
 #define kScreenHeight [[UIApplication sharedApplication]keyWindow].bounds.size.height
@@ -38,7 +39,7 @@
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
-    
+    [Bugly startWithAppId:@"fb87855988"];
     [[MYAdsConfiguration shareInstance] initConfigurationWithAppId:MYMobAdsAppID];
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
     _splash.fetchDelay = 10;
