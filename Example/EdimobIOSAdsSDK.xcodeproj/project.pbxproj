@@ -641,7 +641,7 @@
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.edimob.ssp123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.co.Yoosee111;
 				PRODUCT_NAME = ykt;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -663,7 +663,7 @@
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.edimob.ssp123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.co.Yoosee111;
 				PRODUCT_NAME = ykt;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
