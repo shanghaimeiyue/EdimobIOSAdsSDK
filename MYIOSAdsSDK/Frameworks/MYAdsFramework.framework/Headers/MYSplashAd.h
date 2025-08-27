@@ -7,6 +7,7 @@
 #import <UIKit/UIKit.h>
 #import "MyAdProtocol.h"
 
+
 @protocol MYSplashAdDelegate <NSObject>
 
 @optional

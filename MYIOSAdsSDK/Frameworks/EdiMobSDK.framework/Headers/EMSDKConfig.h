@@ -46,4 +46,6 @@
 /// @param idfa 外部传入的idfa
 - (void)setSDKIDFA:(NSString *)idfa;
 
+//-(void)setConfigExtraMode:(NSDictionary *)dic;
+
 @end
