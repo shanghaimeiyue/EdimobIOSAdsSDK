@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+EdimobIOSAdsSDK 是一个用于 iOS 平台的广告 SDK，提供横幅广告、插屏广告、激励视频等多种广告形式的集成能力，支持与主流广告平台对接，简化开发者的广告集成流程，同时包含资源管理、网络请求等辅助功能。
+                      DESC
 
   s.homepage         = 'https://github.com/shanghaimeiyue/EdimobIOSAdsSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.static_framework = true
   
-  s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
+#  s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
  
   s.subspec 'Core' do |core|
      core.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
