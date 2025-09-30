@@ -17,9 +17,9 @@
 
 #define MYMobAdsAppID @"1850"
 #define SplashID @"11692"
-#define BannerID @"9278"
-#define InterID @"6868"
+#define BannerID @"11696"
+#define InterID @"12135"
 #define NativeID @"11694"
-#define VideoID @"6870"
+#define VideoID @"11698"
 
 #import "MYAppDelegate.h"

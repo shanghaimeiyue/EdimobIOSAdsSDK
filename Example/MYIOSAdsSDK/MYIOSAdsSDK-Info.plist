@@ -22,6 +22,60 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tbopen</string>
+		<string>tmall</string>
+		<string>wireless1688</string>
+		<string>alipays</string>
+		<string>taobaoliveshare</string>
+		<string>youku</string>
+		<string>eleme</string>
+		<string>fleamarket</string>
+		<string>dingtalk</string>
+		<string>taobaotravel</string>
+		<string>dydeeplink</string>
+		<string>changba</string>
+		<string>mogujie</string>
+		<string>snssdk143</string>
+		<string>snssdk1128</string>
+		<string>snssdk2329</string>
+		<string>snssdk8663</string>
+		<string>snssdk32</string>
+		<string>dragon1967</string>
+		<string>openapp.jdmobile</string>
+		<string>openjd</string>
+		<string>vipshop</string>
+		<string>imeituan</string>
+		<string>dianping</string>
+		<string>meituanwaimai</string>
+		<string>ksnebula</string>
+		<string>baiduboxapp</string>
+		<string>baiduboxlite</string>
+		<string>iqiyi</string>
+		<string>yanxuan</string>
+		<string>orpheus</string>
+		<string>onetravel</string>
+		<string>kfhxzdriver</string>
+		<string>wbmain</string>
+		<string>wbganji</string>
+		<string>sinaweibo</string>
+		<string>autohome</string>
+		<string>ctrip</string>
+		<string>bilibili</string>
+		<string>iting</string>
+		<string>soul</string>
+		<string>zhihu</string>
+		<string>xhsdiscover</string>
+		<string>dewuapp</string>
+		<string>smzdm</string>
+		<string>taoumaimai</string>
+		<string>sohunews</string>
+		<string>sohuvideo</string>
+		<string>pinduoduo</string>
+		<string>sileo</string>
+		<string>kwai</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>

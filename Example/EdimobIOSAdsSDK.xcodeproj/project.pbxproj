@@ -32,6 +32,7 @@
 		634C54C245F37D5022991E6C /* Pods_EdimobIOSAdsSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CB71D2CADB2B18181E18CB /* Pods_EdimobIOSAdsSDK_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9254E78A2E8AC0BA00AACD93 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9254E7892E8AC0BA00AACD93 /* Toast.swift */; };
 		929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B1BB82DE47B5A001244C6 /* LogManager.m */; };
 		92B089CB2E41FBB7008C9142 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B089CA2E41FBB7008C9142 /* Bugly.framework */; };
 		9A475E40318DEC85E5A05C36 /* Pods_EdimobIOSAdsSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54BBACB6DF9386B531F2E08 /* Pods_EdimobIOSAdsSDK_Tests.framework */; };
@@ -86,7 +87,7 @@
 		412D88A24E160BA5DDE44034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		528D30C255D497DACE1CA788 /* Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EdimobIOSAdsSDK_Tests/Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		55A4AAADD128206E79B9B035 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* ykt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ykt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* yoosee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yoosee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -107,6 +108,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9254E7882E8AC0BA00AACD93 /* EdimobIOSAdsSDK_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EdimobIOSAdsSDK_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		9254E7892E8AC0BA00AACD93 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		929B1BB72DE47B5A001244C6 /* LogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
 		929B1BB82DE47B5A001244C6 /* LogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
 		92B089CA2E41FBB7008C9142 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
@@ -179,7 +182,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ykt.app */,
+				6003F58A195388D20070C39A /* yoosee.app */,
 				6003F5AE195388D20070C39A /* EdimobIOSAdsSDK_Tests.xctest */,
 			);
 			name = Products;
@@ -213,6 +216,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				9254E7892E8AC0BA00AACD93 /* Toast.swift */,
+				9254E7882E8AC0BA00AACD93 /* EdimobIOSAdsSDK_Example-Bridging-Header.h */,
 			);
 			name = "Example for MYIOSAdsSDK";
 			path = MYIOSAdsSDK;
@@ -294,7 +299,7 @@
 			);
 			name = EdimobIOSAdsSDK_Example;
 			productName = MYIOSAdsSDK;
-			productReference = 6003F58A195388D20070C39A /* ykt.app */;
+			productReference = 6003F58A195388D20070C39A /* yoosee.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* EdimobIOSAdsSDK_Tests */ = {
@@ -328,6 +333,7 @@
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 8UR33FSGUM;
+						LastSwiftMigration = 1630;
 					};
 					6003F5AD195388D20070C39A = {
 						DevelopmentTeam = 8UR33FSGUM;
@@ -394,6 +400,17 @@
 				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/Core/TTSDKCore.framework/TTSDKCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/LiveBase/TTSDKLiveBase.framework/TTSDKLiveBase",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/LivePlayer/Lite/TTSDKLivePlayerLite.framework/TTSDKLivePlayerLite",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/PlayerCore/LiveLite/TTSDKPlayerCoreLiveLite.framework/TTSDKPlayerCoreLiveLite",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/Reachability/TTSDKReachability.framework/TTSDKReachability",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/SSL/ttboringssl.framework/ttboringssl",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/SSL/ttcrypto.framework/ttcrypto",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/Strategy/Lite/TTSDKStrategyLite.framework/TTSDKStrategyLite",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/TTFFmpeg/LiveLite/TTFFmpeg.framework/TTFFmpeg",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/TTFFmpeg/LiveLite/TTSDKTTFFmpegLiveLite.framework/TTSDKTTFFmpegLiveLite",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/Tools/TTSDKTools.framework/TTSDKTools",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/GDTMobSDK.framework/GDTMobSDK",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/Tquic.framework/Tquic",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KSAdSDK/KSAdSDK.framework/KSAdSDK",
@@ -407,6 +424,17 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSCrash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKLiveBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKLivePlayerLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKPlayerCoreLiveLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ttboringssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ttcrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKStrategyLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTFFmpeg.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKTTFFmpegLiveLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSDKTools.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDTMobSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tquic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSAdSDK.framework",
@@ -426,15 +454,25 @@
 				"${PODS_ROOT}/Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example-resources.sh",
 				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle",
 				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkSDK.bundle",
+				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKLiveBase/Resources/VeLive.bundle",
+				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKPlayerCoreLiveLite/Resources/ttplayer.metallib",
 				"${PODS_ROOT}/../../MYIOSAdsSDK/Resources/MYAdsBundle.bundle",
+				"${PODS_ROOT}/HRAdSDK/HRAdSDK/HRAdSDK.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
+				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle",
+				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnyThinkSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VeLive.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ttplayer.metallib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MYAdsBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HRAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctCore.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -500,6 +538,7 @@
 				0479BCD52CF81EBA0016A7CC /* MYVideoViewController.m in Sources */,
 				0479BCD62CF81EBA0016A7CC /* MYNativeViewController.m in Sources */,
 				0479BCD72CF81EBA0016A7CC /* MYBannerViewController.m in Sources */,
+				9254E78A2E8AC0BA00AACD93 /* Toast.swift in Sources */,
 				929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */,
 				0479BCD82CF81EBA0016A7CC /* MYNativeTableViewCell.m in Sources */,
 			);
@@ -629,6 +668,7 @@
 			baseConfigurationReference = DC5383C9C880C8ECFA33FED3 /* Pods-EdimobIOSAdsSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8UR33FSGUM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -639,8 +679,10 @@
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.co.Yoosee.ssp;
-				PRODUCT_NAME = ykt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.co.Yoosee;
+				PRODUCT_NAME = yoosee;
+				SWIFT_OBJC_BRIDGING_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -651,6 +693,7 @@
 			baseConfigurationReference = 0B41A30B9ECB0DEB08FC783E /* Pods-EdimobIOSAdsSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8UR33FSGUM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -661,8 +704,9 @@
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.co.Yoosee.ssp;
-				PRODUCT_NAME = ykt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.co.Yoosee;
+				PRODUCT_NAME = yoosee;
+				SWIFT_OBJC_BRIDGING_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

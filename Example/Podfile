@@ -5,19 +5,22 @@ platform :ios, '12.0'
 target 'EdimobIOSAdsSDK_Example' do
   pod 'EdimobIOSAdsSDK', :path => '../', :subspecs => ['Core','CocoaHTTPServer','SDWebImage','Masonry','KSCrash','WechatOpenSDK']
   
-  pod 'Ads-CN-Beta', '~> 7.0.0.3', :subspecs => ['BUAdSDK', 'CSJMediation']
-#  pod 'HRAdSDK/HR','1.7.19.0'
+  pod 'Ads-CN-Beta', '~> 7.2.0.0', :subspecs => ['BUAdSDK', 'CSJMediation']
+  pod 'HRAdSDK/HR','1.7.19.0'
   pod 'WechatOpenSDK'
-  #pod 'KSCrash', '~> 1.17.7'
-  pod 'GDTMobSDK', '~> 4.15.40'
-  pod 'KSAdSDK', '~> 3.3.76'
-  pod 'QMAdSDK', '~> 1.3.4'
+#  #pod 'KSCrash', '~> 1.17.7'
+  pod 'GDTMobSDK', '~> 4.15.60'
+  pod 'KSAdSDK', '~> 4.9.20'
+  pod 'QMAdSDK', '~> 1.3.6'
   pod 'AnyThinkiOS','6.4.76'
   pod 'JADYun', '2.6.6'
   pod 'BeiZiSDK-iOS/BeiZiSDK-iOS', '4.90.4.36'
-#  pod 'UBiXMediationSDK', '2.8.1'
-#  pod 'UBiXMUBiXAdapter'
+  pod 'UBiXMediationSDK', '2.10.1'
+  pod 'UBiXMUBiXAdapter'
+#  pod 'HRAdSDK/HR','1.7.16.2'
+  pod 'OctopusSDK', '1.6.2.3'
 #  pod 'CocoaHTTPServer'
+#pod 'Toast-Swift', '~> 5.0'
   target 'EdimobIOSAdsSDK_Tests' do
     inherit! :search_paths
 

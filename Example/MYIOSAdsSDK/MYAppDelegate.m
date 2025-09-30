@@ -15,6 +15,7 @@
 #import<AnyThinkSplash/AnyThinkSplash.h>
 #import <Bugly/Bugly.h>
 
+
 #define kScreenWidth [[UIApplication sharedApplication]keyWindow].bounds.size.width
 #define kScreenHeight [[UIApplication sharedApplication]keyWindow].bounds.size.height
 #define kAttSplashId @"b67f5f1575e8fd"
@@ -44,7 +45,7 @@
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
     _splash.fetchDelay = 10;
     _splash.delegate = self;
-    _splash.zoomController = vc;
+    _splash.zoomController = self.window.rootViewController;
     _splash.customBottomView = self.bottomView;
     [_splash MY_loadAd];
 //    [self initTKSDK];
@@ -142,6 +143,9 @@
 }
 - (void)MY_splashAdClosed{
     NSLog(@"开屏广告关闭");
+//    [self.window.rootViewController.view makeToast:@"Objective-C 基础 Toast"];
+
+//    [self.window.rootViewController.view makeTextWritingDirectionLeftToRight:<#(nullable id)#>]
     [[LogManager shared] logToTextView:@"MY_splashAdClosed"];
     [self rmoveAdWindow];
     self.splash = nil;

@@ -15,10 +15,10 @@
 #import "MYVideoViewController.h"
 #import "MYAdInfoViewController.h"
 
-//#import <HRAdSDK/HRAdSDK.h>
-//#import <BeiZiSDK/BeiZiSDK.h>
-//#import <QMAdSDK/QMAdSDK.h>
-//#import <OctAdSDK/OctAdManager.h>
+#import <HRAdSDK/HRAdSDK.h>
+#import <BeiZiSDK/BeiZiSDK.h>
+#import <QMAdSDK/QMAdSDK.h>
+#import <OctAdSDK/OctAdManager.h>
 #import <JADYun/JADYun.h>
 //#import <BUAdSDK/BUAdSDK.h>
 //#import <GDTMobSDK/GDTMobSDK.h>
@@ -49,13 +49,13 @@
     NSLog(@"MYAdsConfiguration sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
     NSLog(@"EMSDKConfig sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
     NSLog(@"[JADYunSDK sdkVersion] = %@",[JADYunSDK sdkVersion]);
-//    NSLog(@"[QMAdSDKManager sdkVersion] = %@",[QMAdSDKManager sdkVersion]);
-//    NSLog(@"[HRAdSDK sdkVersion] = %@",[HRAdSDK getVersionName]);
-//    NSLog(@"[BeiZiSDKManager sdkVersion] = %@",[BeiZiSDKManager sdkVersion]);
-//    NSLog(@"[OctAdManager sdkVersion] = %@",[OctAdManager sdkVersion]);
+    NSLog(@"[QMAdSDKManager sdkVersion] = %@",[QMAdSDKManager sdkVersion]);
+    NSLog(@"[HRAdSDK sdkVersion] = %@",[HRAdSDK getVersionName]);
+    NSLog(@"[BeiZiSDKManager sdkVersion] = %@",[BeiZiSDKManager sdkVersion]);
+    NSLog(@"[OctAdManager sdkVersion] = %@",[OctAdManager sdkVersion]);
 //    
-//    NSLog(@"[KSAdSDKManager sdkVersion] = %@",[KSAdSDKManager SDKVersion]);
-//    NSLog(@"[BUAdSDKManager sdkVersion] = %@",[BUAdSDKManager SDKVersion]);
+    NSLog(@"[KSAdSDKManager sdkVersion] = %@",[UbiXMediationSDK sdkVersion]);
+    NSLog(@"[BUAdSDKManager sdkVersion] = %@",[UBiXAdSDKManager SDKVersion]);
 //    NSLog(@"[GDTSDKConfig sdkVersion] = %@",[GDTSDKConfig sdkVersion]);
 
 }
