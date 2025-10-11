@@ -569,6 +569,10 @@
 		<data>
 		DjK1nAWbXrAnXgByWvoP5Wm5Q4A=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		1e79ag5LWxLBD6Q37zhOdpKBryc=
+		</data>
 		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		f7tABLrB9oK2NQF1kNJvG+RR3gc=
@@ -2051,6 +2055,17 @@
 			<key>hash2</key>
 			<data>
 			G4paLa6GCKS3dpQimH+n4w9ZayMgkYZ57s3xZm0/UBM=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1e79ag5LWxLBD6Q37zhOdpKBryc=
+			</data>
+			<key>hash2</key>
+			<data>
+			pj6YvnUXVtyWK1OF1ZubAzvIbOAOnmmtEBQHAJYtcb4=
 			</data>
 		</dict>
 		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>

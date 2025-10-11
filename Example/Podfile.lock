@@ -47,15 +47,15 @@ PODS:
     - BUTTSDKFramework/Tools
   - BUTTSDKFramework/TTFFmpeg/LiveLite (1.46.2.7-premium):
     - BUTTSDKFramework/TTFFmpeg/Base
-  - EdimobIOSAdsSDK/CocoaHTTPServer (5.8.21)
-  - EdimobIOSAdsSDK/Core (5.8.21)
-  - EdimobIOSAdsSDK/KSCrash (5.8.21):
+  - EdimobIOSAdsSDK/CocoaHTTPServer (5.8.30)
+  - EdimobIOSAdsSDK/Core (5.8.30)
+  - EdimobIOSAdsSDK/KSCrash (5.8.30):
     - KSCrash (~> 1.17.7)
-  - EdimobIOSAdsSDK/Masonry (5.8.21):
+  - EdimobIOSAdsSDK/Masonry (5.8.30):
     - Masonry
-  - EdimobIOSAdsSDK/SDWebImage (5.8.21):
+  - EdimobIOSAdsSDK/SDWebImage (5.8.30):
     - SDWebImage (= 5.21.1)
-  - EdimobIOSAdsSDK/WechatOpenSDK (5.8.21):
+  - EdimobIOSAdsSDK/WechatOpenSDK (5.8.30):
     - WechatOpenSDK
   - GDTMobSDK (4.15.60)
   - HRAdSDK/HR (1.7.19.0)
@@ -132,14 +132,6 @@ PODS:
   - SDWebImage (5.21.1):
     - SDWebImage/Core (= 5.21.1)
   - SDWebImage/Core (5.21.1)
-  - UBiXDaq (2.5.0)
-  - UBiXMediationSDK (2.10.1):
-    - UBiXDaq
-  - UBiXMerakSDK (2.8.0):
-    - UBiXDaq (~> 2.5.0)
-  - UBiXMUBiXAdapter (2.8.0.0):
-    - UBiXMediationSDK
-    - UBiXMerakSDK (= 2.8.0)
   - WechatOpenSDK (2.0.5)
 
 DEPENDENCIES:
@@ -159,8 +151,6 @@ DEPENDENCIES:
   - KSAdSDK (~> 4.9.20)
   - OctopusSDK (= 1.6.2.3)
   - QMAdSDK (~> 1.3.6)
-  - UBiXMediationSDK (= 2.10.1)
-  - UBiXMUBiXAdapter
   - WechatOpenSDK
 
 SPEC REPOS:
@@ -178,10 +168,6 @@ SPEC REPOS:
     - OctopusSDK
     - QMAdSDK
     - SDWebImage
-    - UBiXDaq
-    - UBiXMediationSDK
-    - UBiXMerakSDK
-    - UBiXMUBiXAdapter
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
@@ -193,7 +179,7 @@ SPEC CHECKSUMS:
   AnyThinkiOS: 628392cb255ed455b4cb86a446c596242b625c45
   BeiZiSDK-iOS: 798c2fee3c650ff494ee0ee7a6a5a61d7a1a9125
   BUTTSDKFramework: b5d45b40003335843f05088c2373cef0b5638a9e
-  EdimobIOSAdsSDK: 68fb034ab4598f601ad2397ba72571012639cff9
+  EdimobIOSAdsSDK: 15b9d9189bfa3ba484ed57b35459801332473eb1
   GDTMobSDK: 8cd8edbf854115062da986ce7bc4b57948f69e2b
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
@@ -203,12 +189,8 @@ SPEC CHECKSUMS:
   OctopusSDK: c691fb9d623d2a4426231f456be9da7295bdf79c
   QMAdSDK: 58f92f487431cc725f11bdbe0390d1cd673542af
   SDWebImage: f29024626962457f3470184232766516dee8dfea
-  UBiXDaq: 4767d7653330523afd30538b9de5f6c4e21258d7
-  UBiXMediationSDK: 752ccf11d1804999801ad7cbd69825200ec2e542
-  UBiXMerakSDK: 3b41bc4529052107abe1e77b0bafce5e51dd314c
-  UBiXMUBiXAdapter: de4d782cc2588010646eb60adf1875da1a42aa6e
   WechatOpenSDK: a363db41205f57abbc05bb6b80bf2d2ed1ea40bf
 
-PODFILE CHECKSUM: 8db561190392720e64b134bd178a1d568a2883e7
+PODFILE CHECKSUM: 1104d3127c949c1e0996cd1853a4fcab9417f394
 
 COCOAPODS: 1.16.2
