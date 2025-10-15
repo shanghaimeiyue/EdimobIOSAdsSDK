@@ -9,9 +9,6 @@ PODS:
     - Ads-CN-Beta/CSJMediation-Only
   - Ads-CN-Beta/CSJMediation-Only (7.2.0.2):
     - Ads-CN-Beta/BUAdSDK
-  - AnyThinkiOS (6.4.76):
-    - AnyThinkiOS/AnyThinkSDK (= 6.4.76)
-  - AnyThinkiOS/AnyThinkSDK (6.4.76)
   - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.36)
   - BUTTSDKFramework/Core (1.46.2.7-premium)
   - BUTTSDKFramework/LiveBase (1.46.2.7-premium):
@@ -145,7 +142,6 @@ PODS:
 DEPENDENCIES:
   - Ads-CN-Beta/BUAdSDK (~> 7.2.0.0)
   - Ads-CN-Beta/CSJMediation (~> 7.2.0.0)
-  - AnyThinkiOS (= 6.4.76)
   - BeiZiSDK-iOS/BeiZiSDK-iOS (= 4.90.4.36)
   - EdimobIOSAdsSDK/CocoaHTTPServer (from `../`)
   - EdimobIOSAdsSDK/Core (from `../`)
@@ -166,7 +162,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Ads-CN-Beta
-    - AnyThinkiOS
     - BeiZiSDK-iOS
     - BUTTSDKFramework
     - GDTMobSDK
@@ -190,7 +185,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Ads-CN-Beta: 85e71c4194cf37d7b78fda31399e1366c1e6e81a
-  AnyThinkiOS: 628392cb255ed455b4cb86a446c596242b625c45
   BeiZiSDK-iOS: 798c2fee3c650ff494ee0ee7a6a5a61d7a1a9125
   BUTTSDKFramework: b5d45b40003335843f05088c2373cef0b5638a9e
   EdimobIOSAdsSDK: 8d1c92fc2bdae2156457f5c71338fac75de0aa7c
@@ -209,6 +203,6 @@ SPEC CHECKSUMS:
   UBiXMUBiXAdapter: 0b64b6e7830739abbbf142eaf4c75b0712b07075
   WechatOpenSDK: a363db41205f57abbc05bb6b80bf2d2ed1ea40bf
 
-PODFILE CHECKSUM: 8db561190392720e64b134bd178a1d568a2883e7
+PODFILE CHECKSUM: db08e5e10f88cb7594fce889ab3024d00c69412d
 
 COCOAPODS: 1.16.2
