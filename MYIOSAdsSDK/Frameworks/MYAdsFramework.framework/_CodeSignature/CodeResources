@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		ye3UA8fNJ2spyYr0J0oI0Kzl28M=
+		X6Gee62sSQuAhKqQArY+SovEi1Y=
 		</data>
 		<key>AnyThinkSDK.bundle/RedPacket.png</key>
 		<data>
@@ -415,7 +415,7 @@
 		</dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		7NHO1e5LAPSuXw7G6T0CRf788EA=
+		O5hxFRpxaiug98Rz9E8W3q3wktc=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -732,7 +732,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/image_assets.json</key>
 		<data>
-		/5uVpY+9lZYxdf8asLfRkwicqcM=
+		1NOILQatbZ0f57NnC3BSokUvrJ4=
 		</data>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
 		<dict>
@@ -798,7 +798,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		PFGshpRO+eyBx1m1x/JxgodhDZ8=
+		mGXEzsYDjSIU7Kt5P1gAgqFyziI=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -973,14 +973,6 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		DjK1nAWbXrAnXgByWvoP5Wm5Q4A=
-		</data>
-		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		f7tABLrB9oK2NQF1kNJvG+RR3gc=
-		</data>
-		<key>ttplayer.metallib</key>
-		<data>
-		ADLHpACALRgTq1buVTKjHWrPsXk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2091,11 +2083,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7NHO1e5LAPSuXw7G6T0CRf788EA=
+			O5hxFRpxaiug98Rz9E8W3q3wktc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tV+MQmxrdFBZU6+O0MevlsuPEUnYQ8eGbdHdGloGccE=
+			tH0QvV1mYHnq5CNCneb8/+296kyCuuQN3a9c72AkaGw=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -2951,11 +2943,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/5uVpY+9lZYxdf8asLfRkwicqcM=
+			1NOILQatbZ0f57NnC3BSokUvrJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fEFQMUuHScRxgdE9MaLc2W2aqqdyFA1fWRuiSSsotG4=
+			QEdDslvZbP4I5lHP1NIBR51MtM2enwshApMXUtv8eJs=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
@@ -3109,11 +3101,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PFGshpRO+eyBx1m1x/JxgodhDZ8=
+			mGXEzsYDjSIU7Kt5P1gAgqFyziI=
 			</data>
 			<key>hash2</key>
 			<data>
-			VqE5gN0BsTj4SrPj/FY6mtgXU0DtjhB6xujSWDe4csQ=
+			g6dvGjV89duwtJprwMooNT7A7Q69AXb1BFB4N9NXzCQ=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -3558,28 +3550,6 @@
 			<key>hash2</key>
 			<data>
 			G4paLa6GCKS3dpQimH+n4w9ZayMgkYZ57s3xZm0/UBM=
-			</data>
-		</dict>
-		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			f7tABLrB9oK2NQF1kNJvG+RR3gc=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q3VRH0z1+tx2WuPB5YpySUWeeN8GH1ZVQOG2AWloBtU=
-			</data>
-		</dict>
-		<key>ttplayer.metallib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ADLHpACALRgTq1buVTKjHWrPsXk=
-			</data>
-			<key>hash2</key>
-			<data>
-			9ICUAM/ryJakLbkqgmVoKepYMUELT73Ynad3RJlhvik=
 			</data>
 		</dict>
 	</dict>
