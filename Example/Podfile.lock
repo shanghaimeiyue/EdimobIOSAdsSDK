@@ -44,15 +44,15 @@ PODS:
     - BUTTSDKFramework/Tools
   - BUTTSDKFramework/TTFFmpeg/LiveLite (1.46.2.7-premium):
     - BUTTSDKFramework/TTFFmpeg/Base
-  - EdimobIOSAdsSDK/CocoaHTTPServer (5.8.32)
-  - EdimobIOSAdsSDK/Core (5.8.32)
-  - EdimobIOSAdsSDK/KSCrash (5.8.32):
+  - EdimobIOSAdsSDK/CocoaHTTPServer (5.8.33)
+  - EdimobIOSAdsSDK/Core (5.8.33)
+  - EdimobIOSAdsSDK/KSCrash (5.8.33):
     - KSCrash (~> 1.17.7)
-  - EdimobIOSAdsSDK/Masonry (5.8.32):
+  - EdimobIOSAdsSDK/Masonry (5.8.33):
     - Masonry
-  - EdimobIOSAdsSDK/SDWebImage (5.8.32):
+  - EdimobIOSAdsSDK/SDWebImage (5.8.33):
     - SDWebImage (= 5.21.1)
-  - EdimobIOSAdsSDK/WechatOpenSDK (5.8.32):
+  - EdimobIOSAdsSDK/WechatOpenSDK (5.8.33):
     - WechatOpenSDK
   - GDTMobSDK (4.15.60)
   - HRAdSDK/HR (1.7.19.0)
@@ -187,7 +187,7 @@ SPEC CHECKSUMS:
   Ads-CN-Beta: 85e71c4194cf37d7b78fda31399e1366c1e6e81a
   BeiZiSDK-iOS: 798c2fee3c650ff494ee0ee7a6a5a61d7a1a9125
   BUTTSDKFramework: b5d45b40003335843f05088c2373cef0b5638a9e
-  EdimobIOSAdsSDK: 8d1c92fc2bdae2156457f5c71338fac75de0aa7c
+  EdimobIOSAdsSDK: dbcb29e0fff1feff3f1ca7b70c9a47063418f8c0
   GDTMobSDK: 8cd8edbf854115062da986ce7bc4b57948f69e2b
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
