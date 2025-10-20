@@ -9,6 +9,9 @@ PODS:
     - Ads-CN-Beta/CSJMediation-Only
   - Ads-CN-Beta/CSJMediation-Only (7.2.0.2):
     - Ads-CN-Beta/BUAdSDK
+  - AnyThinkiOS (6.4.92):
+    - AnyThinkiOS/AnyThinkSDK (= 6.4.92)
+  - AnyThinkiOS/AnyThinkSDK (6.4.92)
   - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.36)
   - BUTTSDKFramework/Core (1.46.2.7-premium)
   - BUTTSDKFramework/LiveBase (1.46.2.7-premium):
@@ -44,15 +47,15 @@ PODS:
     - BUTTSDKFramework/Tools
   - BUTTSDKFramework/TTFFmpeg/LiveLite (1.46.2.7-premium):
     - BUTTSDKFramework/TTFFmpeg/Base
-  - EdimobIOSAdsSDK/CocoaHTTPServer (5.8.33)
-  - EdimobIOSAdsSDK/Core (5.8.33)
-  - EdimobIOSAdsSDK/KSCrash (5.8.33):
+  - EdimobIOSAdsSDK/CocoaHTTPServer (5.8.35)
+  - EdimobIOSAdsSDK/Core (5.8.35)
+  - EdimobIOSAdsSDK/KSCrash (5.8.35):
     - KSCrash (~> 1.17.7)
-  - EdimobIOSAdsSDK/Masonry (5.8.33):
+  - EdimobIOSAdsSDK/Masonry (5.8.35):
     - Masonry
-  - EdimobIOSAdsSDK/SDWebImage (5.8.33):
+  - EdimobIOSAdsSDK/SDWebImage (5.8.35):
     - SDWebImage (= 5.21.1)
-  - EdimobIOSAdsSDK/WechatOpenSDK (5.8.33):
+  - EdimobIOSAdsSDK/WechatOpenSDK (5.8.35):
     - WechatOpenSDK
   - GDTMobSDK (4.15.60)
   - HRAdSDK/HR (1.7.19.0)
@@ -129,19 +132,12 @@ PODS:
   - SDWebImage (5.21.1):
     - SDWebImage/Core (= 5.21.1)
   - SDWebImage/Core (5.21.1)
-  - UBiXDaq (2.5.0)
-  - UBiXMediationSDK (2.10.1):
-    - UBiXDaq
-  - UBiXMerakSDK (2.8.1):
-    - UBiXDaq (~> 2.5.0)
-  - UBiXMUBiXAdapter (2.8.1.0):
-    - UBiXMediationSDK
-    - UBiXMerakSDK (= 2.8.1)
   - WechatOpenSDK (2.0.5)
 
 DEPENDENCIES:
   - Ads-CN-Beta/BUAdSDK (~> 7.2.0.0)
   - Ads-CN-Beta/CSJMediation (~> 7.2.0.0)
+  - AnyThinkiOS (= 6.4.92)
   - BeiZiSDK-iOS/BeiZiSDK-iOS (= 4.90.4.36)
   - EdimobIOSAdsSDK/CocoaHTTPServer (from `../`)
   - EdimobIOSAdsSDK/Core (from `../`)
@@ -155,13 +151,12 @@ DEPENDENCIES:
   - KSAdSDK (~> 4.9.20)
   - OctopusSDK (= 1.6.2.3)
   - QMAdSDK (~> 1.3.6)
-  - UBiXMediationSDK (= 2.10.1)
-  - UBiXMUBiXAdapter
   - WechatOpenSDK
 
 SPEC REPOS:
   trunk:
     - Ads-CN-Beta
+    - AnyThinkiOS
     - BeiZiSDK-iOS
     - BUTTSDKFramework
     - GDTMobSDK
@@ -173,10 +168,6 @@ SPEC REPOS:
     - OctopusSDK
     - QMAdSDK
     - SDWebImage
-    - UBiXDaq
-    - UBiXMediationSDK
-    - UBiXMerakSDK
-    - UBiXMUBiXAdapter
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
@@ -185,9 +176,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Ads-CN-Beta: 85e71c4194cf37d7b78fda31399e1366c1e6e81a
+  AnyThinkiOS: d30b18b4e4ca97d7c9d797f9628215f7b714d4a6
   BeiZiSDK-iOS: 798c2fee3c650ff494ee0ee7a6a5a61d7a1a9125
   BUTTSDKFramework: b5d45b40003335843f05088c2373cef0b5638a9e
-  EdimobIOSAdsSDK: dbcb29e0fff1feff3f1ca7b70c9a47063418f8c0
+  EdimobIOSAdsSDK: 217669ec49b7958da169d9de879c5229f9766ee7
   GDTMobSDK: 8cd8edbf854115062da986ce7bc4b57948f69e2b
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
@@ -197,12 +189,8 @@ SPEC CHECKSUMS:
   OctopusSDK: c691fb9d623d2a4426231f456be9da7295bdf79c
   QMAdSDK: 58f92f487431cc725f11bdbe0390d1cd673542af
   SDWebImage: f29024626962457f3470184232766516dee8dfea
-  UBiXDaq: 4767d7653330523afd30538b9de5f6c4e21258d7
-  UBiXMediationSDK: 752ccf11d1804999801ad7cbd69825200ec2e542
-  UBiXMerakSDK: 44c4c9908a111ee3718957514f66358f02174e25
-  UBiXMUBiXAdapter: 0b64b6e7830739abbbf142eaf4c75b0712b07075
   WechatOpenSDK: a363db41205f57abbc05bb6b80bf2d2ed1ea40bf
 
-PODFILE CHECKSUM: db08e5e10f88cb7594fce889ab3024d00c69412d
+PODFILE CHECKSUM: cb4de6e1146c6aebbbf02e3a3d54e792a2cc92e5
 
 COCOAPODS: 1.16.2
