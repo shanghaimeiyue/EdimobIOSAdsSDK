@@ -8,11 +8,11 @@
 
 #import "MYInterstitialViewController.h"
 #import <MYAdsFramework/MYAdsFramework.h>
-#import <AnyThinkInterstitial//AnyThinkInterstitial.h>
+//#import <AnyThinkInterstitial//AnyThinkInterstitial.h>
 #import "LogManager.h"
 #define IS_OS_7_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
 #define kIntertialSplaceId @"b67d3d4057e525"
-@interface MYInterstitialViewController ()<MYInterstitialAdDelegate,ATAdLoadingDelegate,ATInterstitialDelegate>
+@interface MYInterstitialViewController ()<MYInterstitialAdDelegate>
 @property (nonatomic, strong)MYInterstitialAd *interstitialObj;
 @end
 
@@ -56,8 +56,8 @@
 }
 #pragma mark - 加载广告
 - (IBAction)loadAd:(id)sender {
-//    [self.interstitialObj MY_loadAd];
-    [[ATAdManager sharedManager] loadADWithPlacementID:kIntertialSplaceId extra:@{} delegate:self];
+    [self.interstitialObj MY_loadAd];
+//    [[ATAdManager sharedManager] loadADWithPlacementID:kIntertialSplaceId extra:@{} delegate:self];
 }
 #pragma mark - 展示广告
 - (IBAction)showAd:(id)sender {
@@ -80,16 +80,16 @@
  */
 #pragma mark -- ATAdLoadingDelegate
 /// Callback when the successful loading of the ad
-- (void)didFinishLoadingADWithPlacementID:(NSString *)placementID {
-    NSLog(@"-----%s______%@", __func__, placementID);
-    BOOL isReady = [[ATAdManager sharedManager] interstitialReadyForPlacementID:kIntertialSplaceId];
-    // 展示前需判断广告是否填充
-    if (isReady) {
-       // 广告已填充，展示广告
-//       [[ATAdManager sharedManager] showInterstitialWithPlacementID:kIntertialSplaceId inViewController:self delegate:self];
-        [[ATAdManager sharedManager] showInterstitialWithPlacementID:kIntertialSplaceId scene:@"" inViewController:self delegate:self];
-   }
-}
+//- (void)didFinishLoadingADWithPlacementID:(NSString *)placementID {
+//    NSLog(@"-----%s______%@", __func__, placementID);
+//    BOOL isReady = [[ATAdManager sharedManager] interstitialReadyForPlacementID:kIntertialSplaceId];
+//    // 展示前需判断广告是否填充
+//    if (isReady) {
+//       // 广告已填充，展示广告
+////       [[ATAdManager sharedManager] showInterstitialWithPlacementID:kIntertialSplaceId inViewController:self delegate:self];
+//        [[ATAdManager sharedManager] showInterstitialWithPlacementID:kIntertialSplaceId scene:@"" inViewController:self delegate:self];
+//   }
+//}
 
 
 

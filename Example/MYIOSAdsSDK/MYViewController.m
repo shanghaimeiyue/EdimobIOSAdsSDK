@@ -15,7 +15,7 @@
 #import "MYVideoViewController.h"
 #import "MYAdInfoViewController.h"
 
-#import <HRAdSDK/HRAdSDK.h>
+//#import <HRAdSDK/HRAdSDK.h>
 #import <BeiZiSDK/BeiZiSDK.h>
 #import <QMAdSDK/QMAdSDK.h>
 #import <OctAdSDK/OctAdManager.h>
@@ -50,7 +50,7 @@
     NSLog(@"EMSDKConfig sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
     NSLog(@"[JADYunSDK sdkVersion] = %@",[JADYunSDK sdkVersion]);
     NSLog(@"[QMAdSDKManager sdkVersion] = %@",[QMAdSDKManager sdkVersion]);
-    NSLog(@"[HRAdSDK sdkVersion] = %@",[HRAdSDK getVersionName]);
+//    NSLog(@"[HRAdSDK sdkVersion] = %@",[HRAdSDK getVersionName]);
     NSLog(@"[BeiZiSDKManager sdkVersion] = %@",[BeiZiSDKManager sdkVersion]);
     NSLog(@"[OctAdManager sdkVersion] = %@",[OctAdManager sdkVersion]);
 //    

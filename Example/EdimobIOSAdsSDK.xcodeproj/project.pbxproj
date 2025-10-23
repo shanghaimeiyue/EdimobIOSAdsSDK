@@ -87,7 +87,7 @@
 		412D88A24E160BA5DDE44034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		528D30C255D497DACE1CA788 /* Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EdimobIOSAdsSDK_Tests/Pods-EdimobIOSAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		55A4AAADD128206E79B9B035 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* gudong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gudong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* tongan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tongan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -182,7 +182,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* gudong.app */,
+				6003F58A195388D20070C39A /* tongan.app */,
 				6003F5AE195388D20070C39A /* EdimobIOSAdsSDK_Tests.xctest */,
 			);
 			name = Products;
@@ -299,7 +299,7 @@
 			);
 			name = EdimobIOSAdsSDK_Example;
 			productName = MYIOSAdsSDK;
-			productReference = 6003F58A195388D20070C39A /* gudong.app */;
+			productReference = 6003F58A195388D20070C39A /* tongan.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* EdimobIOSAdsSDK_Tests */ = {
@@ -453,24 +453,22 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EdimobIOSAdsSDK_Example/Pods-EdimobIOSAdsSDK_Example-resources.sh",
 				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJAdSDK.bundle",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkSDK.bundle",
 				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKLiveBase/Resources/VeLive.bundle",
 				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKPlayerCoreLiveLite/Resources/ttplayer.metallib",
 				"${PODS_ROOT}/../../MYIOSAdsSDK/Resources/MYAdsBundle.bundle",
-				"${PODS_ROOT}/HRAdSDK/HRAdSDK/HRAdSDK.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
+				"${PODS_ROOT}/MSMobAdSDK/MSMobAdSDK/MSAdSDK.bundle",
 				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle",
 				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnyThinkSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VeLive.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ttplayer.metallib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MYAdsBundle.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HRAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MSAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctCore.bundle",
 			);
@@ -681,9 +679,9 @@
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MARKETING_VERSION = 2;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codoon.gps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjtongan.anjia365.jxjy;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = gudong;
+				PRODUCT_NAME = tongan;
 				SWIFT_OBJC_BRIDGING_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -709,9 +707,9 @@
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MARKETING_VERSION = 2;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codoon.gps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjtongan.anjia365.jxjy;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = gudong;
+				PRODUCT_NAME = tongan;
 				SWIFT_OBJC_BRIDGING_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

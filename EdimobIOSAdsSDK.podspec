@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EdimobIOSAdsSDK'
-  s.version          = '5.8.35'
+  s.version          = '5.8.36'
   s.summary          = 'A short description of EdimobIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
       ss.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/**/*.framework'
   end
   s.subspec 'SDWebImage' do |ss|
-      ss.dependency 'SDWebImage','5.21.1'
+      ss.dependency 'SDWebImage','~> 5.21.1'
   end
   s.subspec 'Masonry' do |ss|
       ss.dependency 'Masonry'

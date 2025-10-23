@@ -12,8 +12,8 @@
 #import <AdSupport/ASIdentifierManager.h>
 #import "MYViewController.h"
 #import "LogManager.h"
-#import<AnyThinkSplash/AnyThinkSplash.h>
-#import<AnyThinkSDK/AnyThinkSDK.h>
+//#import<AnyThinkSplash/AnyThinkSplash.h>
+//#import<AnyThinkSDK/AnyThinkSDK.h>
 #import <Bugly/Bugly.h>
 
 
@@ -21,7 +21,7 @@
 #define kScreenHeight [[UIApplication sharedApplication]keyWindow].bounds.size.height
 #define kAttSplashId @"b67f5f1575e8fd"
 
-@interface MYAppDelegate ()<MYSplashAdDelegate,ATAdLoadingDelegate,ATSplashDelegate>
+@interface MYAppDelegate ()<MYSplashAdDelegate>
 
 @property (nonatomic, strong)MYSplashAd *splash;
 @property (nonatomic, strong) UIView *bottomView;
@@ -48,40 +48,40 @@
     _splash.delegate = self;
     _splash.zoomController = self.window.rootViewController;
     _splash.customBottomView = self.bottomView;
-//    [_splash MY_loadAd];
-    [self initTKSDK];
+    [_splash MY_loadAd];
+//    [self initTKSDK];
     
     return YES;
 }
 
-- (void)initTKSDK {
-    [ATAPI setLogEnabled:YES];
-    [ATAPI integrationChecking];
-    [[ATSDKGlobalSetting sharedManager] setHeaderBiddingTestModeDeviceID:@"7547B23E-F702-432D-B68B-6FD694C6A4FF"];
-    [[ATSDKGlobalSetting sharedManager] setSystemPlatformType:ATSystemPlatformTypeIOS];
-
-    // com.edimob.ssp
-    /// a671a04a9b8043  a093c0043a16fe385a639f65eb8fd6ecf  our
-    NSError *error;
-    [[ATAPI sharedInstance] startWithAppID:@"a671a04a9b8043" appKey:@"a093c0043a16fe385a639f65eb8fd6ecf" error:&error];
-//    [[ATAPI sharedInstance] startWithAppID:@"a647711f9ed10f" appKey:@"ab076e179e157b8abb8f28117664bffbb" error:&error];
-
-//    [[ATAPI sharedInstance] startWithAppID:@"a671a04a9b8043" appKey:@"a093c0043a16fe385a639f65eb8fd6ecf" error:&error];@"ab076e179e157b8abb8f28117664bffbb";
-
-    if (error) {
-        NSLog(@"----- %@", error);
-    }
-    
-//    咕咚APPKEY：ba7a082d22c3986dc380c74fd6f8022b
-//    广告位ID：b66612f3c0d9bc
-//    应用ID：a647711f9ed10f
-    
-    [self loadAd];
-}
-
-- (void)loadAd {
-    [[ATAdManager sharedManager] loadADWithPlacementID:kAttSplashId extra:@{} delegate:self containerView:self.bottomView];
-}
+//- (void)initTKSDK {
+//    [ATAPI setLogEnabled:YES];
+//    [ATAPI integrationChecking];
+//    [[ATSDKGlobalSetting sharedManager] setHeaderBiddingTestModeDeviceID:@"7547B23E-F702-432D-B68B-6FD694C6A4FF"];
+//    [[ATSDKGlobalSetting sharedManager] setSystemPlatformType:ATSystemPlatformTypeIOS];
+//
+//    // com.edimob.ssp
+//    /// a671a04a9b8043  a093c0043a16fe385a639f65eb8fd6ecf  our
+//    NSError *error;
+//    [[ATAPI sharedInstance] startWithAppID:@"a671a04a9b8043" appKey:@"a093c0043a16fe385a639f65eb8fd6ecf" error:&error];
+////    [[ATAPI sharedInstance] startWithAppID:@"a647711f9ed10f" appKey:@"ab076e179e157b8abb8f28117664bffbb" error:&error];
+//
+////    [[ATAPI sharedInstance] startWithAppID:@"a671a04a9b8043" appKey:@"a093c0043a16fe385a639f65eb8fd6ecf" error:&error];@"ab076e179e157b8abb8f28117664bffbb";
+//
+//    if (error) {
+//        NSLog(@"----- %@", error);
+//    }
+//    
+////    咕咚APPKEY：ba7a082d22c3986dc380c74fd6f8022b
+////    广告位ID：b66612f3c0d9bc
+////    应用ID：a647711f9ed10f
+//    
+//    [self loadAd];
+//}
+//
+//- (void)loadAd {
+//    [[ATAdManager sharedManager] loadADWithPlacementID:kAttSplashId extra:@{} delegate:self containerView:self.bottomView];
+//}
 
 
 
@@ -126,7 +126,7 @@
 
 #pragma mark - delegate
 - (void)MY_splashAdDidLoad {
-    [_splash MY_showInWindow:self.adWindow withBottomView:nil];
+    [_splash MY_showInWindow:self.adWindow withBottomView:self.bottomView];
 }
 - (void)MY_splashAdFailToPresent:(NSError *)error{
     NSLog(@"开屏无填充=====%@",error);
@@ -251,24 +251,24 @@
     NSLog(@"-----splash count down time = %d", countdown);
 }
 
-- (void)didFinishLoadingSplashADWithPlacementID:(NSString *)placementID
-                                      isTimeout:(BOOL)isTimeout {
-    NSLog(@"------%s______-splash isTimeout = %d", __func__, isTimeout);
-    
-    BOOL isReady = [[ATAdManager sharedManager] splashReadyForPlacementID:kAttSplashId];
-    // 展示前需判断广告是否填充
-    if (isReady) {
-       // 广告已填充，展示广告
-       ATShowConfig *config = [[ATShowConfig alloc] init];
-       [[ATAdManager sharedManager] showSplashWithPlacementID:kAttSplashId
-                                                       config:config
-                                                       window:self.window
-                                             inViewController:self.window.rootViewController
-                                                        extra:@{}
-                                                     delegate:self];
-   }
-
-}
+//- (void)didFinishLoadingSplashADWithPlacementID:(NSString *)placementID
+//                                      isTimeout:(BOOL)isTimeout {
+//    NSLog(@"------%s______-splash isTimeout = %d", __func__, isTimeout);
+//    
+//    BOOL isReady = [[ATAdManager sharedManager] splashReadyForPlacementID:kAttSplashId];
+//    // 展示前需判断广告是否填充
+//    if (isReady) {
+//       // 广告已填充，展示广告
+//       ATShowConfig *config = [[ATShowConfig alloc] init];
+//       [[ATAdManager sharedManager] showSplashWithPlacementID:kAttSplashId
+//                                                       config:config
+//                                                       window:self.window
+//                                             inViewController:self.window.rootViewController
+//                                                        extra:@{}
+//                                                     delegate:self];
+//   }
+//
+//}
 
 
 #pragma mark - lazy
