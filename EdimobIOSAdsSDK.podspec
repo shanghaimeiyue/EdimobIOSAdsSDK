@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
       ss.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/**/*.framework'
   end
   s.subspec 'SDWebImage' do |ss|
-      ss.dependency 'SDWebImage' '5.21.1'
+      ss.dependency 'SDWebImage','~> 5.21.1'
   end
   s.subspec 'Masonry' do |ss|
       ss.dependency 'Masonry'
