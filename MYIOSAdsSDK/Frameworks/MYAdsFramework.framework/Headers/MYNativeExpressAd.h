@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MyAdProtocol.h"
 @class MYNativeExpressAdView;
 
 @protocol MYNativeExpressAdDelegate <NSObject>
@@ -48,7 +49,7 @@
 @end
 
 
-@interface MYNativeExpressAd : NSObject
+@interface MYNativeExpressAd : NSObject<MyAdProtocol>
 
 @property (nonatomic, weak) id<MYNativeExpressAdDelegate> delegate;
 
