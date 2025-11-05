@@ -679,7 +679,7 @@
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MARKETING_VERSION = 2;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gstarcad.xian.ocsclient;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjtongan.anjia365.llpx;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = tongan;
 				SWIFT_OBJC_BRIDGING_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK_Example-Bridging-Header.h";
@@ -707,7 +707,7 @@
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MARKETING_VERSION = 2;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gstarcad.xian.ocsclient;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjtongan.anjia365.llpx;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = tongan;
 				SWIFT_OBJC_BRIDGING_HEADER = "MYIOSAdsSDK/EdimobIOSAdsSDK_Example-Bridging-Header.h";
