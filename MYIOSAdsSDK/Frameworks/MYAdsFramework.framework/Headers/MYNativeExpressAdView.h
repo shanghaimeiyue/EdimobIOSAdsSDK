@@ -20,7 +20,7 @@
  */
 - (void)MY_render;
 
-- (void)MY_render:(FalconPlatModel *)platModel;
+- (void)MY_render:(FalconPlatModel *)platModel contentView:(UIView *)contentView;
 /**
  返回广告的eCPM，单位：分
  
@@ -32,11 +32,13 @@
 /**以下方法和属性开发者无需调用和关心*/
 @property (nonatomic, weak) UIViewController *controller;
 @property (nonatomic, strong, readonly) id currentData;
+@property (nonatomic, strong, readonly) id form;
+@property (nonatomic, weak) id response;
 @property (nonatomic, assign) BOOL isUsed;
 @property (nonatomic, assign) BOOL OP;
 @property (nonatomic, assign) int index;
 @property (nonatomic, assign) NSInteger count;
-@property (nonatomic, strong) FalconPlatModel *plamtModel;
+//@property (nonatomic, strong) FalconPlatModel *plamtModel;
 - (instancetype)initWithFrame:(CGRect)frame form:(id)form style:(id)style ad:(id)ad data:(id)data response:(id)response result:(id)result;
 
 @end

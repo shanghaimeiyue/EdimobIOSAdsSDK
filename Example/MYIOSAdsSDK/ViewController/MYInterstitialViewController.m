@@ -21,10 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-//    self.interstitialObj = [[MYInterstitialAd alloc] initWithInterstitialWithAppId:MYMobAdsAppID spaceId:InterID];
-//    self.interstitialObj.viewController = self;
-//    self.interstitialObj.delegate = self;
-//    [_interstitialObj MY_loadAd];
+    self.interstitialObj = [[MYInterstitialAd alloc] initWithInterstitialWithAppId:MYMobAdsAppID spaceId:InterID];
+    self.interstitialObj.viewController = self;
+    self.interstitialObj.delegate = self;
+    [_interstitialObj MY_loadAd];
     
 }
 #pragma mark - 插屏广告代理方法

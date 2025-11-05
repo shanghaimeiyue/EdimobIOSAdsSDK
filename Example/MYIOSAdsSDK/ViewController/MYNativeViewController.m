@@ -82,6 +82,7 @@
 #pragma mark - 原生模板代理方法
 - (void)MY_nativeExpressAdSuccessToViews:(NSArray<__kindof MYNativeExpressAdView *> *)views{
     NSLog(@"原生模板广告加载成功");
+    [[LogManager shared] logToTextView:@"原生模板广告加载成功"];
     [_data removeAllObjects];
     [_data addObjectsFromArray:views];
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -117,10 +118,12 @@
 }
 - (void)MY_nativeExpressAdExposure{
     NSLog(@"原生模板广告曝光成功");
+    [[LogManager shared] logToTextView:@"原生模板广告曝光成功"];
 }
 
 - (void)MY_nativeExpressAdClick{
     NSLog(@"原生模板广告被点击");
+    [[LogManager shared] logToTextView:@"原生模板广告被点击"];
     MYAppDelegate *delegate = (MYAppDelegate *)[UIApplication sharedApplication].delegate;
     delegate.toastLab.text = @"原生模板广告被点击";
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(6.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

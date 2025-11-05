@@ -26,6 +26,7 @@
 @property (nonatomic, strong)MYSplashAd *splash;
 @property (nonatomic, strong) UIView *bottomView;
 @property (nonatomic, strong) UIWindow *adWindow;
+@property (nonatomic, strong) UIViewController *zoomController;
 
 @end
 
@@ -40,13 +41,15 @@
     MYViewController *vc = [[MYViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = nav;
+    self.zoomController = vc;
+     
     [self.window makeKeyAndVisible];
     [Bugly startWithAppId:@"fb87855988"];
     [[MYAdsConfiguration shareInstance] initConfigurationWithAppId:MYMobAdsAppID];
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
     _splash.fetchDelay = 10;
     _splash.delegate = self;
-    _splash.zoomController = self.window.rootViewController;
+    _splash.zoomController = vc;
     _splash.customBottomView = self.bottomView;
     [_splash MY_loadAd];
 //    [self initTKSDK];
@@ -126,6 +129,7 @@
 
 #pragma mark - delegate
 - (void)MY_splashAdDidLoad {
+//    self.adWindow.rootViewController = self.zoomController;
     [_splash MY_showInWindow:self.adWindow withBottomView:self.bottomView];
 }
 - (void)MY_splashAdFailToPresent:(NSError *)error{
@@ -299,6 +303,8 @@
     }
     return _adWindow;
 }
+
+
 
 - (void)rmoveAdWindow {
     if (_adWindow) {
