@@ -6,11 +6,11 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		Co6BXcu6UG7s8HpEWHFtK4IhzOM=
+		t/neThSw1EX7AOSuqvXubgf52FU=
 		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		O5hxFRpxaiug98Rz9E8W3q3wktc=
+		7NHO1e5LAPSuXw7G6T0CRf788EA=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -327,7 +327,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/image_assets.json</key>
 		<data>
-		1NOILQatbZ0f57NnC3BSokUvrJ4=
+		/5uVpY+9lZYxdf8asLfRkwicqcM=
 		</data>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
 		<dict>
@@ -393,7 +393,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		mGXEzsYDjSIU7Kt5P1gAgqFyziI=
+		AUl2jKVRItu6Sg4PU+KwWmGkb+A=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -435,7 +435,7 @@
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
-		nqc7u0yS7DHLC4TPwBcaZXoZk3o=
+		P9cmxySjELChlmGfFnreoFLoELM=
 		</data>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<data>
@@ -565,6 +565,14 @@
 		<data>
 		DjK1nAWbXrAnXgByWvoP5Wm5Q4A=
 		</data>
+		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		f7tABLrB9oK2NQF1kNJvG+RR3gc=
+		</data>
+		<key>ttplayer.metallib</key>
+		<data>
+		ADLHpACALRgTq1buVTKjHWrPsXk=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -572,11 +580,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O5hxFRpxaiug98Rz9E8W3q3wktc=
+			7NHO1e5LAPSuXw7G6T0CRf788EA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tH0QvV1mYHnq5CNCneb8/+296kyCuuQN3a9c72AkaGw=
+			tV+MQmxrdFBZU6+O0MevlsuPEUnYQ8eGbdHdGloGccE=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -1432,11 +1440,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1NOILQatbZ0f57NnC3BSokUvrJ4=
+			/5uVpY+9lZYxdf8asLfRkwicqcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			QEdDslvZbP4I5lHP1NIBR51MtM2enwshApMXUtv8eJs=
+			fEFQMUuHScRxgdE9MaLc2W2aqqdyFA1fWRuiSSsotG4=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
@@ -1590,11 +1598,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mGXEzsYDjSIU7Kt5P1gAgqFyziI=
+			AUl2jKVRItu6Sg4PU+KwWmGkb+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			g6dvGjV89duwtJprwMooNT7A7Q69AXb1BFB4N9NXzCQ=
+			XHyhxjuq48kUyj/cjFIBoUuWlmxvr2xob9hdcuz5zfw=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1682,11 +1690,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nqc7u0yS7DHLC4TPwBcaZXoZk3o=
+			P9cmxySjELChlmGfFnreoFLoELM=
 			</data>
 			<key>hash2</key>
 			<data>
-			D234l4t/GBPxasj9zH4UQYWT+/C2qIGfG+C7cr7/bhE=
+			BJLAA+X2NFKfqo1QAs/2oKRF5IVDpMe+/gmCHgVxhAg=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoAd.h</key>
@@ -2028,6 +2036,28 @@
 			<key>hash2</key>
 			<data>
 			G4paLa6GCKS3dpQimH+n4w9ZayMgkYZ57s3xZm0/UBM=
+			</data>
+		</dict>
+		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f7tABLrB9oK2NQF1kNJvG+RR3gc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q3VRH0z1+tx2WuPB5YpySUWeeN8GH1ZVQOG2AWloBtU=
+			</data>
+		</dict>
+		<key>ttplayer.metallib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ADLHpACALRgTq1buVTKjHWrPsXk=
+			</data>
+			<key>hash2</key>
+			<data>
+			9ICUAM/ryJakLbkqgmVoKepYMUELT73Ynad3RJlhvik=
 			</data>
 		</dict>
 	</dict>

@@ -20,6 +20,7 @@
 #import <QMAdSDK/QMAdSDK.h>
 #import <OctAdSDK/OctAdManager.h>
 #import <JADYun/JADYun.h>
+#import "myWebViewController.h"
 //#import <BUAdSDK/BUAdSDK.h>
 //#import <GDTMobSDK/GDTMobSDK.h>
 //#import <KSAdSDK/KSAdSDK.h>
@@ -43,7 +44,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"MYMobAds广告样式";
-    listArray = @[@"横幅广告",@"插屏广告",@"原生模板广告",@"激励视频",@"基础信息"];
+    listArray = @[@"横幅广告",@"插屏广告",@"原生模板广告",@"激励视频",@"基础信息",@"web跳转"];
     [self.view addSubview:self.adList];
     
     NSLog(@"MYAdsConfiguration sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
@@ -86,9 +87,11 @@
     }else if (indexPath.row == 3){
         MYVideoViewController *video = [[MYVideoViewController alloc]init];
         [self.navigationController pushViewController:video animated:YES];
-    }else{
-        MYAdInfoViewController *vc = [[MYAdInfoViewController alloc]init];
+    }else if (indexPath.row == 5){
+        myWebViewController *vc = [[myWebViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
+    }else{
+        
     }
 }
 

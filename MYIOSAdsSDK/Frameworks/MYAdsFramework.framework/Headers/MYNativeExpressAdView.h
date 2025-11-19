@@ -20,7 +20,7 @@
  */
 - (void)MY_render;
 
-- (void)MY_render:(FalconPlatModel *)platModel contentView:(UIView *)contentView;
+
 /**
  返回广告的eCPM，单位：分
  
@@ -38,7 +38,6 @@
 @property (nonatomic, assign) BOOL OP;
 @property (nonatomic, assign) int index;
 @property (nonatomic, assign) NSInteger count;
-//@property (nonatomic, strong) FalconPlatModel *plamtModel;
 - (instancetype)initWithFrame:(CGRect)frame form:(id)form style:(id)style ad:(id)ad data:(id)data response:(id)response result:(id)result;
 
 @end

@@ -56,7 +56,7 @@ PODS:
     - WechatOpenSDK
   - GDTMobSDK (4.15.60)
   - JADYun (2.6.8)
-  - KSAdSDK (4.8.10.1)
+  - KSAdSDK (4.9.20.3)
   - KSCrash (1.17.7):
     - KSCrash/Installations (= 1.17.7)
   - KSCrash/Installations (1.17.7):
@@ -131,14 +131,6 @@ PODS:
   - SDWebImage (5.21.1):
     - SDWebImage/Core (= 5.21.1)
   - SDWebImage/Core (5.21.1)
-  - UBiXDaq (2.5.0)
-  - UBiXMediationSDK (2.10.1):
-    - UBiXDaq
-  - UBiXMerakSDK (2.8.1):
-    - UBiXDaq (~> 2.5.0)
-  - UBiXMUBiXAdapter (2.8.1.0):
-    - UBiXMediationSDK
-    - UBiXMerakSDK (= 2.8.1)
   - WechatOpenSDK (2.0.5)
 
 DEPENDENCIES:
@@ -153,12 +145,10 @@ DEPENDENCIES:
   - EdimobIOSAdsSDK/WechatOpenSDK (from `../`)
   - GDTMobSDK (~> 4.15.60)
   - JADYun (= 2.6.8)
-  - KSAdSDK (~> 4.8.10)
+  - KSAdSDK (~> 4.9.20)
   - MSMobAdSDK/MS (= 2.7.7.2)
   - OctopusSDK (= 2.5.10.15)
-  - QMAdSDK (~> 1.3.6)
-  - UBiXMediationSDK (= 2.10.1)
-  - UBiXMUBiXAdapter
+  - QMAdSDK (~> 1.3.7)
   - WechatOpenSDK
 
 SPEC REPOS:
@@ -175,10 +165,6 @@ SPEC REPOS:
     - OctopusSDK
     - QMAdSDK
     - SDWebImage
-    - UBiXDaq
-    - UBiXMediationSDK
-    - UBiXMerakSDK
-    - UBiXMUBiXAdapter
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
@@ -192,19 +178,15 @@ SPEC CHECKSUMS:
   EdimobIOSAdsSDK: 001fb3cc4559c9e009840ceaf6922e4f0872971b
   GDTMobSDK: 8cd8edbf854115062da986ce7bc4b57948f69e2b
   JADYun: fe7f107f9baa699ef768fd3bb74d2b0aee70bb48
-  KSAdSDK: 10bc78d350d5c1d23ef2198edd2f8ff0b487fd44
+  KSAdSDK: 67a876447cd14b419ed45e2dad55a9a6db42cafb
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MSMobAdSDK: 7b87b6d192cec7a46929993ceb3db2a1b021656a
   OctopusSDK: ca5cc93c64b1121af66af7cebcdf9a4d8322f845
   QMAdSDK: 63cd2accbf055f93df5a66dc80ed2ba522c8b415
   SDWebImage: f29024626962457f3470184232766516dee8dfea
-  UBiXDaq: 4767d7653330523afd30538b9de5f6c4e21258d7
-  UBiXMediationSDK: 752ccf11d1804999801ad7cbd69825200ec2e542
-  UBiXMerakSDK: 44c4c9908a111ee3718957514f66358f02174e25
-  UBiXMUBiXAdapter: 0b64b6e7830739abbbf142eaf4c75b0712b07075
   WechatOpenSDK: a363db41205f57abbc05bb6b80bf2d2ed1ea40bf
 
-PODFILE CHECKSUM: fb59581d3728126a9f4e2f6c500fdbc284aa7b9a
+PODFILE CHECKSUM: 2a3bb1b0e8854898c7c5ced697b95d4ffb0dd036
 
 COCOAPODS: 1.16.2

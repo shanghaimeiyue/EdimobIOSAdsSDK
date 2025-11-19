@@ -139,7 +139,7 @@
 #pragma mark - lazy
 - (MYNativeExpressAd *)expressAd{
     if (!_expressAd) {
-        _expressAd = [[MYNativeExpressAd alloc]initWithExpressWithAppId:MYMobAdsAppID spaceId:NativeID adSize:CGSizeMake(CGRectGetWidth([UIScreen mainScreen].bounds), 108)];
+        _expressAd = [[MYNativeExpressAd alloc]initWithExpressWithAppId:MYMobAdsAppID spaceId:NativeID adSize:CGSizeMake(CGRectGetWidth([UIScreen mainScreen].bounds), 300)];
         _expressAd.currentController = self;
         _expressAd.delegate = self;
     }

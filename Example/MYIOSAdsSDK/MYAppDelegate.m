@@ -47,7 +47,7 @@
     [Bugly startWithAppId:@"fb87855988"];
     [[MYAdsConfiguration shareInstance] initConfigurationWithAppId:MYMobAdsAppID];
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
-    _splash.fetchDelay = 10;
+    _splash.fetchDelay = 5;
     _splash.delegate = self;
     _splash.zoomController = vc;
     _splash.customBottomView = self.bottomView;
@@ -102,6 +102,16 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    
+    _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
+    _splash.fetchDelay = 5;
+    _splash.delegate = self;
+    Class view = NSClassFromString(@"MYViewController");
+    UIViewController *vc = [[view alloc] init];
+    _splash.zoomController = vc;
+    _splash.customBottomView = self.bottomView;
+    [_splash MY_loadAd];
+    
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
