@@ -20,6 +20,6 @@
 #define BannerID @"11696"
 #define InterID @"11898"
 #define NativeID @"11694"
-#define VideoID @"11901"
+#define VideoID @"11698"
 
 #import "MYAppDelegate.h"

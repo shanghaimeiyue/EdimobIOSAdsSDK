@@ -24,8 +24,8 @@
 //#import <BUAdSDK/BUAdSDK.h>
 //#import <GDTMobSDK/GDTMobSDK.h>
 //#import <KSAdSDK/KSAdSDK.h>
-//#import <UbiXMediation/UbiXMediation.h>
-//#import <UbiXAdSDK/UbiXAdSDK.h>
+#import <UbiXMediation/UbiXMediation.h>
+#import <UbiXAdSDK/UbiXAdSDK.h>
 //#import <CocoaLumberjack/CocoaLumberjack.h>
 
 @interface MYViewController ()<UITableViewDelegate,UITableViewDataSource>{
@@ -55,8 +55,8 @@
     NSLog(@"[BeiZiSDKManager sdkVersion] = %@",[BeiZiSDKManager sdkVersion]);
     NSLog(@"[OctAdManager sdkVersion] = %@",[OctAdManager sdkVersion]);
 //    
-//    NSLog(@"[KSAdSDKManager sdkVersion] = %@",[UbiXMediationSDK sdkVersion]);
-//    NSLog(@"[BUAdSDKManager sdkVersion] = %@",[UBiXAdSDKManager SDKVersion]);
+    NSLog(@"[UbiXMediationSDK sdkVersion] = %@",[UbiXMediationSDK sdkVersion]);
+    NSLog(@"[UBiXAdSDKManager sdkVersion] = %@",[UBiXAdSDKManager SDKVersion]);
 //    NSLog(@"[GDTSDKConfig sdkVersion] = %@",[GDTSDKConfig sdkVersion]);
 
 }
