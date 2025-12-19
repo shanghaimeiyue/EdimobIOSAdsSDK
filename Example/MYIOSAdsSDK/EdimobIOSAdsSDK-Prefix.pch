@@ -16,10 +16,10 @@
 #endif
 
 #define MYMobAdsAppID @"1850"
-#define SplashID @"11692"
-#define BannerID @"11696"
-#define InterID @"11898"
-#define NativeID @"11694"
-#define VideoID @"11698"
+#define SplashID @"12276"
+#define BannerID @"12274"
+#define InterID @"12275"
+#define NativeID @"11899"
+#define VideoID @"11901"
 
 #import "MYAppDelegate.h"

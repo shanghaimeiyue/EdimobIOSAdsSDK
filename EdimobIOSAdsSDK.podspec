@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EdimobIOSAdsSDK'
-  s.version          = '5.8.38'
+  s.version          = '5.8.39'
   s.summary          = 'A short description of EdimobIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.

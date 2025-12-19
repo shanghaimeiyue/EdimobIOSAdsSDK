@@ -26,6 +26,8 @@
 @property (nonatomic, assign) BOOL isReady;
 @property (nonatomic, copy) NSString *slotId;
 @property (nonatomic, assign) int index;
+@property (assign, nonatomic) CGFloat contentHeight;
+
 - (instancetype)initWithFrame:(CGRect)frame style:(id)style ad:(id)ad data:(id)data response:(id)response useOp:(BOOL)useOp;
 
 @end
