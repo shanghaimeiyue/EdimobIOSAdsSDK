@@ -50,7 +50,7 @@
     _splash.fetchDelay = 5;
     _splash.delegate = self;
     _splash.zoomController = vc;
-    _splash.customBottomView = self.bottomView;
+//    _splash.customBottomView = self.bottomView;
     [_splash MY_loadAd];
 //    [self initTKSDK];
     
@@ -109,7 +109,7 @@
     Class view = NSClassFromString(@"MYViewController");
     UIViewController *vc = [[view alloc] init];
     _splash.zoomController = vc;
-    _splash.customBottomView = self.bottomView;
+//    _splash.customBottomView = self.bottomView;
     [_splash MY_loadAd];
     
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
