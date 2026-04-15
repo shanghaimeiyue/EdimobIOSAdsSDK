@@ -6,6 +6,7 @@
 
 #import <UIKit/UIKit.h>
 #import <EdiMobSDK/EMAdsProtocol.h>
+@class EMSplashAd;
 
 @interface EMSPlashObject : NSObject
 /// 广告标题
@@ -38,7 +39,9 @@
 /// 小程序操作上报，需宏替换{CALL_UP_RESULT}
 @property (nonatomic, copy) NSArray *trackings;
 
-@property(nonatomic,strong)NSString *fallback;
+@property (nonatomic, strong) NSString *fallback;
+
+@property (nonatomic, strong) EMSplashAd *splashAd;
 
 @end
 
@@ -135,5 +138,7 @@
  @return 成功返回一个大于等于0的值，-1表示无权限或后台出现异常
  */
 - (NSInteger)eCPM;
+
+- (void)EM_trackExpose;
 
 @end

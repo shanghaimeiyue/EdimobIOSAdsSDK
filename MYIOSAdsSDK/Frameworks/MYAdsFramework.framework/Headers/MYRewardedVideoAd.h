@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  返回广告的eCPM，单位：分
  
- @return 成功返回一个大于等于0的值，-1表示无权限或后台出现异常
+ @return 成功返回一个大于等于0的值
  */
 - (NSInteger)eCPM;
 

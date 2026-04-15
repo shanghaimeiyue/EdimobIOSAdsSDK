@@ -6,11 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+@class WKWebView;
 
 @interface EMSDKConfig : NSObject
 
 /// 如果不允许使用IDFA请设置为YES
 @property (nonatomic, assign) BOOL nonIDFA;
+
+@property (nonatomic, strong) WKWebView *webView;
 
 /**
  *  配置类单例
