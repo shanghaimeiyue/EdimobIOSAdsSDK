@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>广告反馈</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.5;
+            padding: 10px 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: #fff;
+            min-height: calc(100vh - 20px);
+        }
+
+        .report-section {
+            padding: 0 16px;
+            padding-bottom: 80px; /* 新增：为悬浮按钮留出空间 */
+        }
+
+        .section-title {
+            font-size: 13px;
+            color: #666;
+            margin-top: 10px;
+            margin-bottom: 6px;
+            font-weight: normal;
+        }
+
+        .report-list {
+            list-style: none;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+
+        .report-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 16px;
+            border-bottom: 1px solid #e0e0e0;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .report-item:last-child {
+            border-bottom: none;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .custom-checkbox {
+            width: 22px;
+            height: 22px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        .custom-checkbox.checked {
+            background-color: #07c160;
+            border-color: #07c160;
+        }
+
+        .custom-checkbox.checked::after {
+            content: "✓";
+            color: white;
+            font-size: 14px;
+        }
+
+        .item-text {
+            font-size: 16px;
+            color: #333;
+            flex-grow: 1;
+        }
+
+        /* 修改：提交按钮悬浮在底部 */
+        .submit-btn {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: calc(100% - 32px);
+            max-width: 375px;
+            margin: 0;
+            padding: 14px;
+            background-color: #07c160;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            z-index: 99;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .submit-btn:hover {
+            background-color: #06ad56;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal {
+            background-color: white;
+            border-radius: 12px;
+            width: 280px;
+            padding: 24px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.active .modal {
+            transform: translateY(0);
+        }
+
+        .modal-icon {
+            font-size: 48px;
+            color: #07c160;
+            margin-bottom: 16px;
+        }
+
+        .modal-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .modal-text {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .modal-btn {
+            padding: 10px 20px;
+            background-color: #07c160;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .modal-btn:hover {
+            background-color: #06ad56;
+        }
+
+        @media (min-width: 768px) {
+            body {
+                padding: 10px 0;
+            }
+
+            .container {
+                max-width: 375px;
+                margin: 0 auto;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                border-radius: 12px;
+                min-height: calc(667px - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- 反馈类型部分 -->
+    <div class="report-section">
+        <h3 class="section-title">内容违规</h3>
+        <ul class="report-list">
+            <li class="report-item" data-type="content" data-value="false_ad">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">虚假宣传</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="content" data-value="vulgar">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">低俗色情</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="content" data-value="fraud">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">诈骗信息</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="content" data-value="violence">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">暴力恐怖</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="content" data-value="gambling">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">赌博信息</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="content" data-value="illegal">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">违法违规</span>
+                </div>
+            </li>
+        </ul>
+
+        <h3 class="section-title">侵犯权益</h3>
+        <ul class="report-list">
+            <li class="report-item" data-type="rights" data-value="infringement">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">涉及侵权</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="rights" data-value="privacy">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">侵犯隐私</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="rights" data-value="malicious">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">恶意广告</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="rights" data-value="dispute">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">售后纠纷</span>
+                </div>
+            </li>
+            <li class="report-item" data-type="rights" data-value="other">
+                <div class="checkbox-container">
+                    <div class="custom-checkbox"></div>
+                    <span class="item-text">其他问题</span>
+                </div>
+            </li>
+        </ul>
+
+        <button class="submit-btn" id="submitBtn">提交反馈</button>
+    </div>
+
+    <!-- 感谢弹窗 -->
+    <div class="modal-overlay" id="thankYouModal">
+        <div class="modal">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 class="modal-title">感谢您的反馈！</h3>
+            <p class="modal-text">我们已经收到您的反馈，将会在1-3个工作日内处理。</p>
+            <button class="modal-btn" id="closeModalBtn">确认</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 获取DOM元素
+    const submitBtn = document.getElementById('submitBtn');
+    const thankYouModal = document.getElementById('thankYouModal');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    const reportItems = document.querySelectorAll('.report-item');
+    const checkboxes = document.querySelectorAll('.custom-checkbox');
+
+    // 存储选中的反馈类型
+    let selectedTypes = [];
+
+    // 原生交互方法
+    function notifyNative(eventName, data) {
+        try {
+            // Android接口调用
+            if (window.Android && typeof window.Android[eventName] === 'function') {
+                window.Android[eventName](JSON.stringify(data));
+                console.log('Android接口调用成功:', eventName, data);
+                return true;
+            }
+
+            // iOS接口调用
+            if (window.webkit && window.webkit.messageHandlers &&
+                window.webkit.messageHandlers[eventName]) {
+                window.webkit.messageHandlers[eventName].postMessage(data);
+                console.log('iOS接口调用成功:', eventName, data);
+                return true;
+            }
+
+            // 备用方案：URL Scheme
+            const eventData = encodeURIComponent(JSON.stringify(data));
+            window.location.href = `native://${eventName}?data=${eventData}`;
+            console.log('URL Scheme调用:', eventName, data);
+
+            return false;
+        } catch (error) {
+            console.error('调用原生接口失败:', error);
+            return false;
+        }
+    }
+
+    // 提供给原生调用的方法
+    window.setFeedbackData = function(data) {
+        console.log('从原生应用接收数据:', data);
+        // 这里可以处理从原生传递过来的数据
+    };
+
+    // 反馈项点击事件
+    reportItems.forEach((item, index) => {
+        item.addEventListener('click', function() {
+            const checkbox = this.querySelector('.custom-checkbox');
+            const isChecked = checkbox.classList.contains('checked');
+
+            if (isChecked) {
+                checkbox.classList.remove('checked');
+                // 从选中列表中移除
+                selectedTypes = selectedTypes.filter(t => t.index !== index);
+            } else {
+                checkbox.classList.add('checked');
+                // 添加到选中列表
+                selectedTypes.push({
+                    index: index,
+                    type: this.getAttribute('data-type'),
+                    value: this.getAttribute('data-value'),
+                    text: this.querySelector('.item-text').textContent
+                });
+            }
+
+            console.log('当前选中:', selectedTypes);
+        });
+    });
+
+    // 提交按钮点击事件
+    submitBtn.addEventListener('click', function() {
+        if (selectedTypes.length === 0) {
+            alert('请至少选择一项反馈类型');
+            return;
+        }
+
+        // 显示感谢弹窗
+        thankYouModal.classList.add('active');
+
+        // 在实际应用中，这里可以添加提交数据的代码
+        console.log('提交反馈:', selectedTypes);
+    });
+
+    // 关闭弹窗按钮点击事件 - 添加feedbackConfirmed回调
+    closeModalBtn.addEventListener('click', function() {
+        thankYouModal.classList.remove('active');
+
+        // 调用原生feedbackConfirmed方法
+        const feedbackData = {
+            selectedTypes: selectedTypes,
+            timestamp: new Date().getTime(),
+            status: 'confirmed'
+        };
+
+        const success = notifyNative('feedbackConfirmed', feedbackData);
+
+        if (!success) {
+            console.warn('未检测到原生应用环境，使用备用方案');
+        }
+
+        // 重置选择和复选框
+        checkboxes.forEach(checkbox => checkbox.classList.remove('checked'));
+        selectedTypes = [];
+    });
+
+    // 点击弹窗背景也可以关闭弹窗
+    thankYouModal.addEventListener('click', function(e) {
+        if (e.target === thankYouModal) {
+            thankYouModal.classList.remove('active');
+
+            // 调用原生feedbackConfirmed方法
+            const feedbackData = {
+                selectedTypes: selectedTypes,
+                timestamp: new Date().getTime(),
+                status: 'cancelled'
+            };
+
+            notifyNative('feedbackConfirmed', feedbackData);
+
+            // 重置选择和复选框
+            checkboxes.forEach(checkbox => checkbox.classList.remove('checked'));
+            selectedTypes = [];
+        }
+    });
+</script>
+</body>
+</html>

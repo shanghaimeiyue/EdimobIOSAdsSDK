@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <EdiMobSDK/EMAdsProtocol.h>
+@class EMInterstitialAd;
 
 @interface EMInterstitialObject : NSObject
 /// 广告标题
@@ -42,6 +43,8 @@
 @property (nonatomic, copy) NSArray *trackings;
 
 @property(nonatomic,strong)NSString *fallback;
+
+@property (nonatomic, strong) EMInterstitialAd *interAd;
 @end
 
 @protocol EMInterstitialAdDelegate <NSObject>
@@ -121,5 +124,7 @@
  @return 成功返回一个大于等于0的值，-1表示无权限或后台出现异常
  */
 - (NSInteger)eCPM;
+
+- (void)EM_trackExpose;
 @end
 
