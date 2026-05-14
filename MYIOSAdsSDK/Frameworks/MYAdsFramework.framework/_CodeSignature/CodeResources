@@ -6,7 +6,7 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		VwMrlA8mtpDyRgQal6Po+WPvsI0=
+		A0rJZUa1ZqfPoSeNgYsMeD9acx8=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -325,28 +325,6 @@
 		<data>
 		/5uVpY+9lZYxdf8asLfRkwicqcM=
 		</data>
-		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qxEpD88EdP3jCqmkUQPRxbnZDso=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/ko.lproj/BULanguage.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JJVEwIiZN6xkVN4bhVevDm315RQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/setup.txt</key>
-		<data>
-		ZM3A57y/v18OGzuvfRFEJO3U2Co=
-		</data>
 		<key>CSJAdSDK.bundle/shake_phone.json</key>
 		<data>
 		C33gzoljYSCSNbpr4AKagxS76U4=
@@ -389,7 +367,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		HU0QsKYQjb7WeBRz48NrAu01bQE=
+		pExZKMZxv4Na/FxwpyOTWzGEj+U=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -1401,7 +1379,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2xbuWv4Ve2SuCADWRXcCF/eA/3azUJR/wwTe/RABVfE=
+			Yo3h6mShCPpz0VyN8DC5blj03i/ZWaDjyLFQ8jsVkWU=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -1952,31 +1930,6 @@
 			fEFQMUuHScRxgdE9MaLc2W2aqqdyFA1fWRuiSSsotG4=
 			</data>
 		</dict>
-		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Rp7MbldY80sDrDjqk7tBuDVikjvA846roBZ282VRgT4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/ko.lproj/BULanguage.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pdZfm0+eu6A56GiYerScLe/+cVISLuGW3ppPbnPxz3U=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/setup.txt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vM2IxdHZV33CH67WhjzFydq4IsFZFtzRed5nq4T+8Dg=
-			</data>
-		</dict>
 		<key>CSJAdSDK.bundle/shake_phone.json</key>
 		<dict>
 			<key>hash2</key>
@@ -2051,7 +2004,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zu2BnkXqWw5RBeITIh+1ONd8MTS5sGEw45j8lD3ygjQ=
+			ZdY0cBy7QFgKNxcMfIaZo+PQWThmKzSjMoJH/WI48lI=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
