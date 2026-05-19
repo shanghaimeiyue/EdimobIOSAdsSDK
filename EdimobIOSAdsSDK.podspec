@@ -30,15 +30,17 @@ TODO: Add long description of the pod here.
 
   s.static_framework = true
   
-#  s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
- 
   s.subspec 'Core' do |core|
      core.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
      core.resources = 'MYIOSAdsSDK/Resources/**/*.bundle'
   end
   s.subspec 'CocoaHTTPServer' do |ss|
-     #ss.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/**/*.framework'
      ss.dependency 'KTVHTTPCache', '~> 3.1.0'
+  end
+  s.subspec 'ToponAdapter' do |ss|
+     ss.source_files = 'MYIOSAdsSDK/ToponAdapter/**/*.{h,m}'
+     ss.dependency 'AnyThinkiOS'
+     ss.dependency 'EdimobIOSAdsSDK/Core'
   end
   s.subspec 'SDWebImage' do |ss|
       ss.dependency 'SDWebImage','~> 5.21.1'
@@ -53,10 +55,4 @@ TODO: Add long description of the pod here.
       ss.dependency 'WechatOpenSDK'
   end
   s.default_subspecs = 'Core'
-#  s.dependency 'CocoaHTTPServer'
-#  s.dependency 'CocoaLumberjack', '~>1.3.0'
-  #s.dependency 'WechatOpenSDK_UnPay'
-#  s.dependency 'SDWebImage'
-#  s.dependency 'Masonry'
-#  s.dependency 'KSCrash', '~> 1.17.7'
 end
