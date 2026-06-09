@@ -693,11 +693,11 @@
 		</data>
 		<key>Headers/MYBannerView.h</key>
 		<data>
-		CKLak5QYZWvi9ViVHC3ARm4jxj4=
+		dhyqtLM26E7C3sKZ0PiqGto+81A=
 		</data>
 		<key>Headers/MYInterstitialAd.h</key>
 		<data>
-		Q7q9KYGF+/PlIGJQMQyUvZka6II=
+		4V1CAi9734Yg5NC3rdpYjeFdnGc=
 		</data>
 		<key>Headers/MYNativeExpressAd.h</key>
 		<data>
@@ -705,11 +705,11 @@
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
-		WJe37wn0gBBlNFuMruBGfh1U8O0=
+		GRe4R713QWtwLct6R4Lj+LpqVF8=
 		</data>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<data>
-		uSaV0fpOMsy2QbToCKrErEXsuPM=
+		kMGA9NboFv19oGI2J0205VVkOT0=
 		</data>
 		<key>Headers/MYRewardedVideoModel.h</key>
 		<data>
@@ -717,11 +717,11 @@
 		</data>
 		<key>Headers/MYSplashAd.h</key>
 		<data>
-		WbaeibANt68n12uXkzmQZLMGpLc=
+		SFn652EY7AB8dPTK6eMoNK6iRfQ=
 		</data>
 		<key>Headers/MyAdProtocol.h</key>
 		<data>
-		rrZnmBs/0hwfzRlJ20ToJ+2v6w0=
+		Lz2uOCpdKPLMni3eEJPqBoyBxyY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -2176,14 +2176,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oC7XsEFDgreWUxjrKZ7YIYCYI5Vm7jKiOMaRCcFYJJk=
+			xuZ4XFv6HoCP5c53mQjEbwq6St0eosCTE7JRSl2vV5g=
 			</data>
 		</dict>
 		<key>Headers/MYInterstitialAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XF7wvRNyS3BwSDGgq6k08jTKYaCoXOg+EFh0UVz1ffA=
+			xLSmBsHot9VuzmRE+rjXH2JvEdkuqdQUKP5EBhnDzfk=
 			</data>
 		</dict>
 		<key>Headers/MYNativeExpressAd.h</key>
@@ -2197,14 +2197,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tvTx4ZHhEHxkDPGViz4t9MLsyR5bXNo1AVHG4o8/MQg=
+			g/F7PbjmLMKchBJjFkDAVFFALu1LbDZ0w0QdNPJPkGY=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q4FHxCHUT/77CsXWtP0i0eErT36Obtcxa2uHJzADuIw=
+			FKTCA0joJIqNNLvFmF8+ulipymFplF8umDSFE3c6Syo=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoModel.h</key>
@@ -2218,14 +2218,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UyycWe0o2X/2qy5Jg7F6FijxGM4ixOM248vTgWi1UzE=
+			JhxDBTUTE5iMCmRB1YgUWcvxh5tjuynLa0zSx5laHks=
 			</data>
 		</dict>
 		<key>Headers/MyAdProtocol.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			liLDmJhck9GY5Qe+i1alThxfdkPFocCE83xeF2xa3eI=
+			3xEK16MTVi52RwKMJ4s58IkAzNZIks2RMsQOlYuhe7k=
 			</data>
 		</dict>
 		<key>JADYun.bundle/Info.plist</key>

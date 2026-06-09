@@ -24,5 +24,12 @@
  */
 - (NSInteger)eCPM;
 
+/**
+ 返回广告源，注意需要在广告成功返回后调用
+ 
+ @return 成功返回当前广告源
+ */
+- (MYAdSource)getSouce;
+
 @end
 

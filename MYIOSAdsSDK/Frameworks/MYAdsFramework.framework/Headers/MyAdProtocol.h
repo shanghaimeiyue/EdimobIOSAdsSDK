@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, MYAdSource) {
+    MYAdSourceNull = 0,   //空
+    MYAdSourceMeiyue,     //美约
+    MYAdSourceGDT,        //优量汇
+    MYAdSourcePangle,     //穿山甲
+    MYAdSourceKuaiShou,   //快手
+    MYAdSourceJD          //京东
+};
+
 /// 竞胜成功第二高的价格
 #define MY_M_W_H_LOSS_PRICE @"upperPrice"
 
