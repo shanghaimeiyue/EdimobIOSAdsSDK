@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EdimobIOSAdsSDK'
-  s.version          = '5.9.08'
+  s.version          = '5.9.09'
   s.summary          = 'A short description of EdimobIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,16 @@ TODO: Add long description of the pod here.
   s.subspec 'ToponAdapter' do |ss|
      ss.source_files = 'MYIOSAdsSDK/ToponAdapter/**/*.{h,m}'
      ss.dependency 'AnyThinkiOS'
-     ss.dependency 'EdimobIOSAdsSDK/Core'
+     ss.dependency 'EdimobIOSAdsSDK/Custom'
+  end
+  s.subspec 'AdScopeAdapter' do |ss|
+     ss.source_files = 'MYIOSAdsSDK/AdScopeAdapter/**/*.{h,m}'
+     ss.dependency 'AMPSAdSDK'
+     ss.dependency 'EdimobIOSAdsSDK/Custom'
+  end
+  s.subspec 'Custom' do |ss|
+     ss.vendored_frameworks = 'MYIOSAdsSDK/Frameworks-Cus/*.framework'
+     ss.resources = 'MYIOSAdsSDK/Resources/**/*.bundle'
   end
   s.subspec 'SDWebImage' do |ss|
       ss.dependency 'SDWebImage','~> 5.21.1'
