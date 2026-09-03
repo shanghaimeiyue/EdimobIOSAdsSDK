@@ -6,7 +6,7 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		A0rJZUa1ZqfPoSeNgYsMeD9acx8=
+		L5Yr5aHR65dbsyDjs6DTvQACLao=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -367,7 +367,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		pExZKMZxv4Na/FxwpyOTWzGEj+U=
+		GiC3cHUZtuDJi0iPosk7pwGZNXU=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -689,7 +689,7 @@
 		</data>
 		<key>Headers/MYAdsFramework.h</key>
 		<data>
-		qDGm1J8lmLgXF8nlUcJrpX0JlnQ=
+		ld1WLqkDBu65I/Md1q9mO/laHRE=
 		</data>
 		<key>Headers/MYBannerView.h</key>
 		<data>
@@ -699,9 +699,13 @@
 		<data>
 		4V1CAi9734Yg5NC3rdpYjeFdnGc=
 		</data>
+		<key>Headers/MYNativeData.h</key>
+		<data>
+		0reRRazvYExqRzO13lvMFNDDOtk=
+		</data>
 		<key>Headers/MYNativeExpressAd.h</key>
 		<data>
-		MrsMMU55oksrvinjpVb7hY+NDAI=
+		IwT0+1TCg3r08l5i4ZF0GhpFI0U=
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
@@ -994,7 +998,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yo3h6mShCPpz0VyN8DC5blj03i/ZWaDjyLFQ8jsVkWU=
+			q8Pj0cXZqKbZVwiMytiPniePiYeCpKanIMHVddAQMg0=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -1619,7 +1623,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZdY0cBy7QFgKNxcMfIaZo+PQWThmKzSjMoJH/WI48lI=
+			nAJY2hgKS6OzrBH7nUMKnP0aEFK/Bj9PZ88fW964224=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -2169,7 +2173,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xbI5b3pH3pMhRaRsdbBTiAJvK1pcMUMDLLCRmMOHotU=
+			phnwHT7ozD+V4RAGhNi8C22sRzO6k4u/CC6yuexD188=
 			</data>
 		</dict>
 		<key>Headers/MYBannerView.h</key>
@@ -2186,11 +2190,18 @@
 			xLSmBsHot9VuzmRE+rjXH2JvEdkuqdQUKP5EBhnDzfk=
 			</data>
 		</dict>
+		<key>Headers/MYNativeData.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O/NTl84Y1aAAhiMuT39dtCTI2MHQgPB6qrKbO/qNwCw=
+			</data>
+		</dict>
 		<key>Headers/MYNativeExpressAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N+c4E+VXT89Y98pXP7lVhHm1G6bWr09ODACUMslPlIM=
+			izdPtHj/xRbbo5OuskpIDTIj5ZiZ+G82n5jqGq4dnNo=
 			</data>
 		</dict>
 		<key>Headers/MYNativeExpressAdView.h</key>

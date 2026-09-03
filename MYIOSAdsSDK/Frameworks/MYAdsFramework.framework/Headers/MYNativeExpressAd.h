@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MyAdProtocol.h"
 @class MYNativeExpressAdView;
+@class MYNativeData;
 
 @protocol MYNativeExpressAdDelegate <NSObject>
 /**
@@ -46,6 +47,11 @@
  * 广告请求唯一ID
  */
 - (void)MY_adReqId: (NSString *)reqId;
+
+/**
+ * 拉取原生广告自渲染数据成功
+ */
+- (void)MY_nativeExpressAdSuccessToDatas:(NSArray<__kindof MYNativeData *> *)datas;
 @end
 
 

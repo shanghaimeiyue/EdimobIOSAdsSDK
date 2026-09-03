@@ -19,11 +19,8 @@
 #import <EdiMobSDK/EMNativeExpressAd.h>
 #import <EdiMobSDK/EMNativeExpressAdView.h>
 #import <EdiMobSDK/EMNativeAd.h>
-#import <EdiMobSDK/EMNativeAdView.h>
 #import <EdiMobSDK/EMNativeAdDataObject.h>
+#import <EdiMobSDK/EMMediaView.h>
 /// 激励视频
 #import <EdiMobSDK/EMRewardedVideoAd.h>
 #import <EdiMobSDK/EMRewardedVideoModel.h>
-
-
-

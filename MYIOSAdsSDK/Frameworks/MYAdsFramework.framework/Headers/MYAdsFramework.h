@@ -21,6 +21,7 @@
 /// 信息流
 #import <MYAdsFramework/MYNativeExpressAd.h>
 #import <MYAdsFramework/MYNativeExpressAdView.h>
+#import <MYAdsFramework/MYNativeData.h>
 
 /// 激励视频
 #import <MYAdsFramework/MYRewardedVideoAd.h>
