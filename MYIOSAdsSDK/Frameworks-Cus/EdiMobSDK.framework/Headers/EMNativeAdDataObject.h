@@ -91,10 +91,13 @@
 
 /**
  *  自渲染视图点击事件注册方法
- *  @param view  媒体自渲染容易视图，必传字段（因为适配需求，建议统一传入GDTUnifiedNativeAdView的子视图）
+ *  @param view  媒体自渲染容器视图（因为适配需求，建议统一传入GDTUnifiedNativeAdView的子视图）；传 nil 解除当前注册。
  *  @param clickableViews 可点击的视图数组，此数组内的广告元素才可以响应广告对应的点击事件
+ *  可点击元素须属于该容器且当前可见，点击位置不能被父视图裁剪；图片和标签无需单独开启 userInteractionEnabled。
  *  注册后会在 view 进入手机窗口并可见时触发曝光回调，同一广告只触发一次
  *  该方法可从任意线程调用，SDK 会将容器注册和曝光检测切换到主线程执行；重复注册会自动解除上一次注册的手势和监听。
+ *  容器可在加入列表前提前注册；同一容器注册新广告时会自动解除旧广告的注册。
+ *  cell 复用为非广告内容时，应传 nil 解绑；解绑和重新注册不会重置该广告的曝光状态。
  */
 - (void)registerContainer:(UIView *)view clickableViews:(NSArray<UIView *> *)clickableViews;
 
