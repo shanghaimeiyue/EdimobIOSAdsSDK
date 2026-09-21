@@ -53,4 +53,8 @@
 /// @param idfa 外部传入的idfa
 - (void)setSDKIDFA:(NSString *)idfa;
 
+/// 是否允许本 SDK 收集和上报崩溃，默认为 YES。
+/// 必须在 initConfigurationWithAppId: 之前调用；不支持初始化后动态启停。
+- (void)enableCrash:(BOOL)enableCrash;
+
 @end
