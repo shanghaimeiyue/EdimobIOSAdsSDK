@@ -6,7 +6,7 @@
 	<dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		L5Yr5aHR65dbsyDjs6DTvQACLao=
+		/srAshc/puSMS3CiZ7xAJ9XzKms=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -367,7 +367,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		pPV/dNn0vr3ejRBX3KEDt27tb5g=
+		T2ei7wHYCtSxGrsGacH/OwOtM+o=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -481,11 +481,11 @@
 		</data>
 		<key>FSUnionAdSDK.bundle/adx_mute_disable@3x.png</key>
 		<data>
-		R11tzQ8KYFMT1PEulsde8eogg68=
+		x5W4G8xSkiaNE42Y+E9QT6WoAXg=
 		</data>
 		<key>FSUnionAdSDK.bundle/adx_mute_enable@3x.png</key>
 		<data>
-		+OE6b1M0D+llE8Oy5VIg59ECxDQ=
+		BmMdRyySDmGvoNz0M5yj15XgrZI=
 		</data>
 		<key>FSUnionAdSDK.bundle/adx_nav_back@3x.png</key>
 		<data>
@@ -579,7 +579,7 @@
 		<data>
 		R++oxwaoRPaIFHC0ZOUFALjWEs8=
 		</data>
-		<key>FSUnionAdSDK.bundle/shake@3x.png</key>
+		<key>FSUnionAdSDK.bundle/fs_shake@3x.png</key>
 		<data>
 		Juq2P/fdBKwayv88iVbnRaB8dCI=
 		</data>
@@ -998,7 +998,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q8Pj0cXZqKbZVwiMytiPniePiYeCpKanIMHVddAQMg0=
+			vHc/4CEjJKMq5PEbBlIjKJN7Mmgiioc4MhdsVo4l8cY=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -1623,7 +1623,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H2jYrWheNh1wgLi9yNMHWwHhfraBCLpgeeH1Ze4ExVY=
+			6JZjDnvdklsOtkmf8aurhyr0PZ4LDbOixxdXl9Z0Fow=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1809,14 +1809,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w2euh9BrhKarrwLv7c6JELaKry+Mkc5PtbYtALCSD+c=
+			wAy/WyaAJOwYcIZlZvw+4EpqJBaQboZYQemBfrlGrMI=
 			</data>
 		</dict>
 		<key>FSUnionAdSDK.bundle/adx_mute_enable@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6SJ5hAYTpU3/5dCOQO8ij1TQ1qMDs2KRvnO1DTuuJwA=
+			vC/99vWT6UTfF1Dmj1WmJTSVIwff63E+9pLtA04s+bE=
 			</data>
 		</dict>
 		<key>FSUnionAdSDK.bundle/adx_nav_back@3x.png</key>
@@ -1980,7 +1980,7 @@
 			KacbhUXEjuofVi5dKGTDsAA53KLhDiK8CjYmBooXEh8=
 			</data>
 		</dict>
-		<key>FSUnionAdSDK.bundle/shake@3x.png</key>
+		<key>FSUnionAdSDK.bundle/fs_shake@3x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
