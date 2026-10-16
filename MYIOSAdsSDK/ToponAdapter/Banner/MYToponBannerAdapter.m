@@ -54,14 +54,18 @@
 }
  
 - (void)sendWin:(ATBidWinLossResult *)result {
-    NSMutableDictionary *infoDic = [MYToponBaseAdapter getWinInfoResult:result];
-    [self.bannerView sendWinNotificationWithInfo:infoDic];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSMutableDictionary *infoDic = [MYToponBaseAdapter getWinInfoResult:result];
+        [self.bannerView sendWinNotificationWithInfo:infoDic];
+    });
 }
 
 - (void)sendLoss:(ATBidWinLossResult *)result {
-    NSString *priceStr = [NSString stringWithFormat:@"%ld",self.bannerView.eCPM];
-    NSMutableDictionary *infoDict = [MYToponBaseAdapter getLossInfoResult:result];
-    [infoDict AT_setDictValue:priceStr key:MY_M_L_WIN_PRICE];
-    [self.bannerView sendLossNotificationWithInfo:infoDict];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSString *priceStr = [NSString stringWithFormat:@"%ld",self.bannerView.eCPM];
+        NSMutableDictionary *infoDict = [MYToponBaseAdapter getLossInfoResult:result];
+        [infoDict AT_setDictValue:priceStr key:MY_M_L_WIN_PRICE];
+        [self.bannerView sendLossNotificationWithInfo:infoDict];
+    });
 }
 @end

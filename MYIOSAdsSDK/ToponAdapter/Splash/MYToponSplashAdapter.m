@@ -55,15 +55,19 @@
 }
 
 - (void)sendWin:(ATBidWinLossResult *)result {
-    NSMutableDictionary *infoDic = [MYToponBaseAdapter getWinInfoResult:result];
-    [self.splashAd sendWinNotificationWithInfo:infoDic];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSMutableDictionary *infoDic = [MYToponBaseAdapter getWinInfoResult:result];
+        [self.splashAd sendWinNotificationWithInfo:infoDic];
+    });
 }
 
 - (void)sendLoss:(ATBidWinLossResult *)result {
-    NSString *priceStr = [NSString stringWithFormat:@"%ld",self.splashAd.eCPM];
-    NSMutableDictionary *infoDict = [MYToponBaseAdapter getLossInfoResult:result];
-    [infoDict AT_setDictValue:priceStr key:MY_M_L_WIN_PRICE];
-    [self.splashAd sendLossNotificationWithInfo:infoDict];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSString *priceStr = [NSString stringWithFormat:@"%ld",self.splashAd.eCPM];
+        NSMutableDictionary *infoDict = [MYToponBaseAdapter getLossInfoResult:result];
+        [infoDict AT_setDictValue:priceStr key:MY_M_L_WIN_PRICE];
+        [self.splashAd sendLossNotificationWithInfo:infoDict];
+    });
 }
 
 #pragma mark - lazy
